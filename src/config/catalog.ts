@@ -1,12 +1,18 @@
-import { Grid2X2, MousePointer2, Layers, Type, LoaderCircle, BarChart3, Box, Sparkles } from 'lucide-react';
+import { Grid2X2, MousePointer2, Layers, Type, LoaderCircle, BarChart3, Box, Sparkles, ListChecks, SlidersHorizontal, MessageSquareText } from 'lucide-react';
 import catalog from '../data/catalog.json';
 
-export type CatalogItem = typeof catalog[number];
+export interface CatalogItem {
+  id: string; original: string; name: string; category: string; categoryLabel: string;
+  description: string; interaction: string; origin?: string; author?: string; sourceUrl?: string;
+}
 export type Theme = 'light' | 'dark';
 export const categories = [
   { id: 'all', name: '全部元件', icon: Grid2X2 },
   { id: 'buttons', name: '按鈕互動', icon: MousePointer2 },
   { id: 'cards', name: '卡片與輪播', icon: Layers },
+  { id: 'forms', name: '表單輸入', icon: ListChecks },
+  { id: 'controls', name: '選擇控制', icon: SlidersHorizontal },
+  { id: 'feedback', name: '提示與回饋', icon: MessageSquareText },
   { id: 'text', name: '文字動態', icon: Type },
   { id: 'loaders', name: '載入動效', icon: LoaderCircle },
   { id: 'charts', name: '數據圖表', icon: BarChart3 },

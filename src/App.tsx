@@ -8,6 +8,7 @@ import { Stage } from './components/studio/Preview';
 import { ProductPage, Guide } from './components/studio/Pages';
 import { Detail } from './components/studio/Detail';
 import license from '../LICENSE?raw';
+import thirdPartyNotices from '../THIRD_PARTY_NOTICES.md?raw';
 
 function stored<T,>(key: string, fallback: T): T {
   try { return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback; } catch { return fallback; }
@@ -110,7 +111,7 @@ export default function App() {
           <section className="bottom-banner"><div><span className="eyebrow">不想每個元件都自己整理？</span><h2>用一杯飲料的價格，<br className="mobile-break" />把時間留給真正的創作。</h2></div><a href="/pricing" onClick={e => navClick(e, '/pricing')}>看看 NT$99 即用包 <ArrowUpRight /></a></section>
         </> : item ? <Detail key={item.id} item={item} theme={theme} copy={copy} navigate={navigate} saved={favorites.includes(item.id)} toggleSaved={() => toggleSaved(item.id)} />
           : isPricing ? <ProductPage navigate={navigate} /> : isGuide ? <Guide copy={copy} />
-            : isLicense ? <section className="content-page"><span className="eyebrow">使用與開源聲明</span><h1>放心創作，<br /><span>也尊重每份貢獻。</span></h1><p className="page-intro">Yaya Motion 的介面與中文內容經重新設計，部分互動元件基於 Amicro 開源專案。相關程式碼依 MIT 授權提供；再散布時須保留原著作權與授權條款。</p><pre className="license-text">{license}</pre><a className="text-link" href="https://github.com/Subhan-code/Amicro--Micro-transitions-" target="_blank" rel="noopener noreferrer">原始開源專案 <ExternalLink size={15} /></a></section>
+            : isLicense ? <section className="content-page"><span className="eyebrow">使用與開源聲明</span><h1>放心創作，<br /><span>也尊重每份貢獻。</span></h1><p className="page-intro">Yaya Motion 提供的是精選、繁體中文整理、React 整合、安裝指南與範例組合。部分元件基於 Amicro 與 Uiverse Galaxy；相關程式碼依 MIT 授權提供，再散布時須保留原著作權與授權條款。</p><h2 className="license-heading">第三方開源聲明</h2><pre className="license-text">{thirdPartyNotices}</pre><h2 className="license-heading">專案 MIT 授權</h2><pre className="license-text">{license}</pre><div className="license-links"><a className="text-link" href="https://github.com/Subhan-code/Amicro--Micro-transitions-" target="_blank" rel="noopener noreferrer">Amicro 原始專案 <ExternalLink size={15} /></a><a className="text-link" href="https://github.com/uiverse-io/galaxy" target="_blank" rel="noopener noreferrer">Uiverse Galaxy <ExternalLink size={15} /></a></div></section>
               : <section className="empty-state"><h1>這個頁面迷路了。</h1><p>回到元件庫，繼續找靈感吧。</p><button className="button button-black" onClick={() => navigate('/library')}>回到元件庫 <ArrowRight size={16} /></button></section>}
         <footer className="site-footer"><span><Mark /> {site.name} <small>讓好設計，動起來。</small></span><div><a href="/license" onClick={e => navClick(e, '/license')}>使用授權</a><a href="/guide" onClick={e => navClick(e, '/guide')}>使用指南</a><span>© {new Date().getFullYear()} Yaya</span></div></footer>
       </main>

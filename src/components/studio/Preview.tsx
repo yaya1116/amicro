@@ -5,6 +5,7 @@ import type { CatalogItem, Theme } from '../../config/catalog';
 
 const ComponentPreview = lazy(() => import('../ComponentPreview'));
 const LabPreview = lazy(() => import('../LabPreview'));
+const UiversePreview = lazy(() => import('../UiversePreview'));
 
 export function Waiting() {
   return <span className="preview-loading"><LoaderCircle size={20} />載入預覽中</span>;
@@ -26,7 +27,9 @@ export function Stage({ item, theme, enlarged = false }: { item: CatalogItem; th
     onMouseEnter={() => setActive(true)} onMouseLeave={() => setActive(false)} onFocus={() => setActive(true)}
     onBlur={e => { if (!e.currentTarget.contains(e.relatedTarget)) setActive(false); }} onTouchStart={() => setActive(true)}>
     {visible && <PreviewBoundary key={item.id}><Suspense fallback={<Waiting />}>
-      <div className="preview-content">{item.category === 'lab'
+      <div className="preview-content">{item.origin === 'Uiverse'
+        ? <UiversePreview id={item.id} theme={theme} />
+        : item.category === 'lab'
         ? <LabPreview id={item.id} theme={theme} />
         : <ComponentPreview id={item.id} theme={theme} active={enlarged || active} />}</div>
     </Suspense></PreviewBoundary>}

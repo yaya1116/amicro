@@ -4,7 +4,7 @@
 
 ## 功能
 
-- 332 個元件：按鈕、卡片與輪播、文字動態、載入動效、數據圖表、網點圖表及互動實驗。
+- 392 個元件：按鈕、卡片、表單、選擇控制、提示回饋、文字動態、載入動效、圖表及互動實驗。
 - 動效預覽、中文與英文搜尋、分類、排序，以及儲存在目前瀏覽器的個人收藏。
 - 元件原始碼、使用範例及本機相依檔案可查看與複製，附帶 MIT 授權聲明。
 - 響應式版面、深淺色模式、手機導覽及使用指南。
@@ -55,11 +55,13 @@ VITE_PRODUCT_PRICE=你的售價文字
 - `src/components/studio/`：首頁視覺、預覽、元件詳情、方案與指南。
 - `src/config/site.ts`：品牌與商品設定。
 - `src/data/zh-TW.json`：元件中文名稱。
+- `src/data/uiverse.json`：經安全篩選與中文化的 Uiverse 精選元件。
 - `scripts/build-catalog.mjs`：產生可搜尋的元件目錄。
 - `scripts/build-source.mjs`：產生使用範例與可複製的原始碼檔案。
+- `scripts/import-uiverse.mjs`：從官方 Galaxy 專案重新建立精選清單。
 
 ## 開源授權
 
-部分互動元件基於 [Amicro](https://github.com/Subhan-code/Amicro--Micro-transitions-) 開源專案，採 MIT 授權。原始著作權及授權條款保留在 [LICENSE](LICENSE)，並附於網站提供的程式碼。圖像、外部素材及商標須遵循各自的授權。
+部分互動元件基於 [Amicro](https://github.com/Subhan-code/Amicro--Micro-transitions-) 與 [Uiverse Galaxy](https://github.com/uiverse-io/galaxy)，兩者皆採 MIT 授權。Yaya Motion 提供精選、繁體中文整理、React 整合、安裝指南與範例組合；原始著作權和授權條款會附在程式碼中。完整來源見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 本專案維護於 [yaya1116/amicro](https://github.com/yaya1116/amicro)。

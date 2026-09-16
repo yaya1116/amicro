@@ -1,6 +1,7 @@
 import ts from 'typescript';
 import { readFileSync, writeFileSync } from 'node:fs';
 const names = JSON.parse(readFileSync('src/data/zh-TW.json', 'utf8'));
+const uiverse = JSON.parse(readFileSync('src/data/uiverse.json', 'utf8'));
 function objects(file) {
   const sf = ts.createSourceFile(file, readFileSync(file, 'utf8'), ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX);
   const items = [];
@@ -33,6 +34,7 @@ const entries = specs.flatMap(([file, category, categoryLabel, description]) => 
   return { id, original, name: names[original], category, categoryLabel, description, interaction: item.interactionType || item.category || category };
 }));
 entries.push({ id: 'dither-book', original: 'Dither Book', name: '立體翻頁手冊', category: 'cards', categoryLabel: '卡片與輪播', description: '翻動紙張，試試立體書頁的光影與空間層次。', interaction: '3d' });
+entries.push(...uiverse.map(({ markup, css, ...item }) => item));
 if (new Set(entries.map(e => e.id)).size !== entries.length) throw new Error('Duplicate component IDs');
 writeFileSync('src/data/catalog.json', JSON.stringify(entries, null, 2) + '\n');
 console.log(`Generated ${entries.length} localized components.`);

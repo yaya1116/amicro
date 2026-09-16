@@ -11,6 +11,10 @@ test('每個元件都有中文名稱、實際程式碼、可解析的相依檔�
     const files: string[] = manifest.components[item.id];
     assert.ok(files?.length >= 3, `${item.id}: source missing`);
     assert.ok(files.includes('LICENSE'), `${item.id}: license missing`);
+    if (item.origin === 'Uiverse') {
+      assert.ok(item.author && item.sourceUrl, `${item.id}: attribution missing`);
+      assert.ok(files.includes('licenses/UIVERSE-MIT.txt'), `${item.id}: Uiverse license missing`);
+    }
     const example = JSON.parse(readFileSync(`public/component-source/${manifest.files[files[0]]}`, 'utf8'));
     assert.match(example, /export default function Example/);
     for (const file of files) {

@@ -39,6 +39,7 @@ export function Detail({ item, theme, copy, navigate, saved, toggleSaved }: Deta
       {tab === 'preview' ? <div className={`detail-stage-theme ${previewTheme === 'dark' ? 'dark' : ''}`} data-preview-theme={previewTheme}><Stage key={`${item.id}-${revision}`} item={item} theme={previewTheme} enlarged /></div>
         : <div className="source-panel">{sourceError ? <p>原始碼暫時無法載入，請重新整理後再試。</p> : files.length ? <><label className="file-select">檔案 <select value={selected} onChange={e => setSelected(Number(e.target.value))}>{files.map((file, i) => <option value={i} key={file.path}>{file.path}</option>)}</select></label><pre><code>{files[selected]?.content}</code></pre></> : <Waiting />}</div>}
     </div>
+    {item.origin && <div className="source-credit"><span className="source-credit-label">開源來源</span><strong>{item.origin}</strong>{item.author && <span>作者 @{item.author}</span>}{item.sourceUrl && <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">查看原始檔案 <ArrowUpRight size={14} /></a>}</div>}
     <div className="detail-notes"><article><Code2 size={20} /><h3>直接帶進專案</h3><p>元件與引用的本機檔案都列在程式碼分頁，請保留相對路徑。</p><button className="text-link" onClick={() => navigate('/guide')}>查看使用指南 <ArrowUpRight size={15} /></button></article><article><MousePointer2 size={20} /><h3>動手試試看</h3><p>移入、點擊或輕觸預覽。使用右上角按鈕切換背景、重新播放。</p></article><article><ShieldCheck size={20} /><h3>自由使用，好好保留</h3><p>使用元件時請一併保留附帶的 MIT 授權聲明。</p><button className="text-link" onClick={() => navigate('/license')}>使用授權 <ArrowUpRight size={15} /></button></article></div>
   </section>;
 }
