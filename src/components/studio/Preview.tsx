@@ -23,7 +23,8 @@ export function Stage({ item, theme, enlarged = false }: { item: CatalogItem; th
   const ref = useRef<HTMLDivElement>(null);
   const visible = useInView(ref, { margin: '100px' });
   const [active, setActive] = useState(false);
-  return <div ref={ref} className={`component-stage stage-${item.category} ${enlarged ? 'stage-large' : ''}`}
+  const fullForm = item.origin === 'Uiverse' && item.interaction === 'forms';
+  return <div ref={ref} className={`component-stage stage-${item.category} ${fullForm ? 'stage-full-form' : ''} ${enlarged ? 'stage-large' : ''}`}
     onMouseEnter={() => setActive(true)} onMouseLeave={() => setActive(false)} onFocus={() => setActive(true)}
     onBlur={e => { if (!e.currentTarget.contains(e.relatedTarget)) setActive(false); }} onTouchStart={() => setActive(true)}>
     {visible && <PreviewBoundary key={item.id}><Suspense fallback={<Waiting />}>
