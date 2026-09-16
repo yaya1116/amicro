@@ -28,10 +28,10 @@ export function MonoRoundedKpiCardChart({ theme = 'dark', compact = false }: Mon
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              KPI Stat Card
+              核心指標
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Metric
+              指標
             </span>
           </div>
           <div className="text-2xl font-extrabold tracking-tight tabular-nums mt-1 font-sans">
@@ -69,8 +69,8 @@ export function MonoRoundedKpiCardChart({ theme = 'dark', compact = false }: Mon
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Sparkline Wave</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Monthly Revenue</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>平滑迷你趨勢</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>每月營收</span>
       </div>
     </div>
   );

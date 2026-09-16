@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 const DEVICES = [
-  { name: 'Today', data: [{ label: 'Mobile', val: 65, color: '#FFFFFF' }, { label: 'Desktop', val: 25, color: '#E2E8F0' }, { label: 'Tablet', val: 10, color: '#94A3B8' }] },
-  { name: 'Last 7D', data: [{ label: 'Mobile', val: 55, color: '#FFFFFF' }, { label: 'Desktop', val: 35, color: '#E2E8F0' }, { label: 'Tablet', val: 10, color: '#94A3B8' }] },
+  { name: "今天", data: [{ label: "手機", val: 65, color: '#FFFFFF' }, { label: "桌面", val: 25, color: '#E2E8F0' }, { label: "平板", val: 10, color: '#94A3B8' }] },
+  { name: "近七天", data: [{ label: "手機", val: 55, color: '#FFFFFF' }, { label: "桌面", val: 35, color: '#E2E8F0' }, { label: "平板", val: 10, color: '#94A3B8' }] },
 ];
 
 const smoothstep = (min: number, max: number, value: number) => {

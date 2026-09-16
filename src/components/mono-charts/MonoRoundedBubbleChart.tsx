@@ -47,14 +47,14 @@ export function MonoRoundedBubbleChart({ theme = 'dark', compact = false }: Mono
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Bubble Clusters
+              群組氣泡
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Scaled
+              比例縮放
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            4 Clusters <span className="text-xs font-normal opacity-70">mapped</span>
+            4 個群組 <span className="text-xs font-normal opacity-70">已映射</span>
           </div>
         </div>
       </div>
@@ -83,8 +83,8 @@ export function MonoRoundedBubbleChart({ theme = 'dark', compact = false }: Mono
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Sphere Circles</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Z-Scaled Radii</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓形氣泡</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>加權半徑</span>
       </div>
     </div>
   );

@@ -20,12 +20,12 @@ interface ScatterPoint {
 }
 
 const MONO_SCATTER_DATA: ScatterPoint[] = [
-  { x: 10, y: 30, z: 200, name: 'Node A' },
-  { x: 25, y: 65, z: 400, name: 'Node B' },
-  { x: 40, y: 45, z: 300, name: 'Node C' },
-  { x: 55, y: 80, z: 500, name: 'Node D' },
-  { x: 70, y: 60, z: 350, name: 'Node E' },
-  { x: 85, y: 92, z: 600, name: 'Node F' },
+  { x: 10, y: 30, z: 200, name: "節點甲" },
+  { x: 25, y: 65, z: 400, name: "節點乙" },
+  { x: 40, y: 45, z: 300, name: "節點丙" },
+  { x: 55, y: 80, z: 500, name: "節點丁" },
+  { x: 70, y: 60, z: 350, name: "節點戊" },
+  { x: 85, y: 92, z: 600, name: "節點己" },
 ];
 
 interface MonoRoundedScatterChartProps {
@@ -52,14 +52,14 @@ export function MonoRoundedScatterChart({ theme = 'dark', compact = false }: Mon
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Mono Scatter Matrix
+              散點矩陣
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Rounded Nodes
+              圓形節點
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            6 Nodes <span className="text-xs font-normal opacity-70">mapped</span>
+            6 個節點 <span className="text-xs font-normal opacity-70">已映射</span>
           </div>
         </div>
       </div>
@@ -95,10 +95,10 @@ export function MonoRoundedScatterChart({ theme = 'dark', compact = false }: Mon
       {/* Footer Details */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
         <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>
-          Scale-Weighted Nodes
+          加權節點
         </span>
         <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>
-          99.8% Sync
+          99.8% 同步率
         </span>
       </div>
     </div>

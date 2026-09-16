@@ -22,12 +22,12 @@ export interface BookSettings {
 }
 
 export const PAGES: BookPage[] = [
-  { id: '1', title: 'SKETCH 01', src: 'https://i.pinimg.com/736x/9a/63/20/9a632012291e49436b7695f50d8aa20e.jpg' },
-  { id: '2', title: 'SKETCH 02', src: 'https://i.pinimg.com/736x/0c/e1/6e/0ce16e5cfb36927669b7421c670035e0.jpg' },
-  { id: '3', title: 'SKETCH 03', src: 'https://i.pinimg.com/736x/63/16/b2/6316b20446639cd7f923882cc0d5b0a5.jpg' },
-  { id: '4', title: 'SKETCH 04', src: 'https://i.pinimg.com/736x/8b/36/b9/8b36b9f128dd0a65dc260e323ac5e333.jpg' },
-  { id: '5', title: 'SKETCH 05', src: 'https://i.pinimg.com/736x/10/b6/bf/10b6bfda558137d1fd3fe5089c36ad9c.jpg' },
-  { id: '6', title: 'SKETCH 06', src: 'https://i.pinimg.com/736x/f9/a7/d1/f9a7d15098baeb3ea28d7232f4ac86ea.jpg' },
+  { id: '1', title: "靈感 01", src: 'https://i.pinimg.com/736x/9a/63/20/9a632012291e49436b7695f50d8aa20e.jpg' },
+  { id: '2', title: "靈感 02", src: 'https://i.pinimg.com/736x/0c/e1/6e/0ce16e5cfb36927669b7421c670035e0.jpg' },
+  { id: '3', title: "靈感 03", src: 'https://i.pinimg.com/736x/63/16/b2/6316b20446639cd7f923882cc0d5b0a5.jpg' },
+  { id: '4', title: "靈感 04", src: 'https://i.pinimg.com/736x/8b/36/b9/8b36b9f128dd0a65dc260e323ac5e333.jpg' },
+  { id: '5', title: "靈感 05", src: 'https://i.pinimg.com/736x/10/b6/bf/10b6bfda558137d1fd3fe5089c36ad9c.jpg' },
+  { id: '6', title: "靈感 06", src: 'https://i.pinimg.com/736x/f9/a7/d1/f9a7d15098baeb3ea28d7232f4ac86ea.jpg' },
 ];
 
 export function Book({ 
@@ -45,7 +45,7 @@ export function Book({
   const [flipState, setFlipState] = useState<{ active: boolean, from: number, to: number, dir: number }>({ active: false, from: 0, to: 0, dir: 1 });
 
   const animDuration = isIntro ? 0.14 : 0.45;
-  const animEase = isIntro ? "linear" : [0.33, 1, 0.68, 1];
+  const animEase: "linear" | [number, number, number, number] = isIntro ? "linear" : [0.33, 1, 0.68, 1];
 
   useEffect(() => {
     if (currentIndex !== localIndex) {
@@ -126,7 +126,7 @@ export function Book({
         <div 
           onClick={onPrevPage}
           className="absolute top-0 left-0 w-1/2 h-full overflow-hidden rounded-l-md border-y border-l border-r border-black/10 shadow-[2px_0_15px_rgba(0,0,0,0.2)] cursor-pointer group"
-          title="Click to turn page back"
+          title="點擊翻回上一頁"
         >
           <PageContent index={leftIndex} />
           <div className={creaseLeft} style={creaseLeftStyle} />
@@ -139,7 +139,7 @@ export function Book({
         <div 
           onClick={onNextPage}
           className="absolute top-0 right-0 w-1/2 h-full overflow-hidden rounded-r-md border-y border-r border-l border-black/10 shadow-[-2px_0_15px_rgba(0,0,0,0.2)] cursor-pointer group"
-          title="Click to turn page forward"
+          title="點擊翻到下一頁"
         >
           <PageContent index={rightIndex} />
           <div className={creaseRight} style={creaseRightStyle} />
@@ -271,7 +271,7 @@ export function DitherBook({ theme = 'dark', compact = false }: { theme?: 'dark'
           }`}
         >
           <ChevronLeft className="w-3.5 h-3.5" />
-          <span>Prev</span>
+          <span>上一頁</span>
         </button>
 
         <span className={`text-[11px] font-semibold tracking-widest uppercase ${theme === 'dark' ? 'text-neutral-400' : 'text-neutral-600'}`}>
@@ -284,7 +284,7 @@ export function DitherBook({ theme = 'dark', compact = false }: { theme?: 'dark'
             className={`p-1.5 rounded-full transition-all cursor-pointer ${
               theme === 'dark' ? 'bg-white/10 hover:bg-white/20 text-white' : 'bg-neutral-200 hover:bg-neutral-300 text-black'
             }`}
-            title="Book Settings"
+            title="書本設定"
           >
             <Settings2 className="w-3.5 h-3.5" />
           </button>
@@ -296,7 +296,7 @@ export function DitherBook({ theme = 'dark', compact = false }: { theme?: 'dark'
               theme === 'dark' ? 'bg-white/10 hover:bg-white/20 text-white' : 'bg-neutral-200 hover:bg-neutral-300 text-black'
             }`}
           >
-            <span>Next</span>
+            <span>下一頁</span>
             <ChevronRight className="w-3.5 h-3.5" />
           </button>
         </div>
@@ -314,7 +314,7 @@ export function DitherBook({ theme = 'dark', compact = false }: { theme?: 'dark'
             }`}
           >
             <div className="flex items-center justify-between mb-3">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-neutral-400">Book Controls</h4>
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-neutral-400">書本控制</h4>
               <button onClick={() => setShowSettings(false)} className="text-neutral-400 hover:text-white">
                 <X className="w-3.5 h-3.5" />
               </button>
@@ -323,7 +323,7 @@ export function DitherBook({ theme = 'dark', compact = false }: { theme?: 'dark'
             <div className="space-y-3 text-[11px]">
               <div className="space-y-1">
                 <div className="flex justify-between font-medium">
-                  <span>Image Padding</span>
+                  <span>圖片留白</span>
                   <span>{settings.padding}px</span>
                 </div>
                 <input 
@@ -335,7 +335,7 @@ export function DitherBook({ theme = 'dark', compact = false }: { theme?: 'dark'
 
               <div className="space-y-1">
                 <div className="flex justify-between font-medium">
-                  <span>Image Radius</span>
+                  <span>圖片圓角</span>
                   <span>{settings.imageRadius}px</span>
                 </div>
                 <input 
@@ -347,7 +347,7 @@ export function DitherBook({ theme = 'dark', compact = false }: { theme?: 'dark'
 
               <div className="space-y-1">
                 <div className="flex justify-between font-medium">
-                  <span>Crease Opacity</span>
+                  <span>摺痕透明度</span>
                   <span>{settings.creaseOpacity}%</span>
                 </div>
                 <input 

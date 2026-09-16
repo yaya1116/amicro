@@ -40,7 +40,7 @@ export const CardScatterSpread = React.memo(function CardScatterSpread({
         const targetRotate = active ? offsets[i].rotate : 0;
 
         const springConfig = {
-          type: "spring",
+          type: "spring" as const,
           stiffness: 180,
           damping: 20,
           mass: 0.8

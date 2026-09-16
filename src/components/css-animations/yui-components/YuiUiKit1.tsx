@@ -78,7 +78,7 @@ export function HoverLinkCard({ theme = 'dark' }: { theme?: 'dark' | 'light' }) 
             transition={{ duration: 0.2 }}
             className="absolute -top-7 px-2.5 py-1 rounded-lg bg-neutral-900 border border-white/15 text-[10px] font-mono text-indigo-300 shadow-xl whitespace-nowrap z-20 pointer-events-none"
           >
-            https://amicro.dev
+            yaya.motion
             <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-neutral-900 border-r border-b border-white/15 rotate-45" />
           </motion.div>
         )}
@@ -99,7 +99,7 @@ export function HoverLinkCard({ theme = 'dark' }: { theme?: 'dark' | 'light' }) 
             : 'bg-white border-neutral-200 text-neutral-900 hover:shadow-neutral-300/60'
         }`}
       >
-        <span>Portfolio</span>
+        <span>作品集</span>
         <ExternalLink className="w-3.5 h-3.5 text-neutral-400" />
       </motion.a>
     </div>
@@ -209,7 +209,7 @@ export function ProgressStepper({ theme = 'dark' }: { theme?: 'dark' | 'light' }
         })}
       </div>
       <span className="text-[11px] font-mono text-neutral-400">
-        STEP {step} of 3
+        步驟 {step} ／ 3
       </span>
     </div>
   );
@@ -277,7 +277,7 @@ export function MultiTabCloseBar({ theme = 'dark' }: { theme?: 'dark' | 'light' 
           className={`p-1.5 rounded-xl border border-transparent transition-colors cursor-pointer ${
             theme === 'dark' ? 'hover:bg-white/10 text-neutral-400 hover:text-white' : 'hover:bg-neutral-200 text-neutral-600 hover:text-black'
           }`}
-          title="New Tab"
+          title="新增頁籤"
         >
           <Plus className="w-3.5 h-3.5" />
         </motion.button>
@@ -376,7 +376,7 @@ export function BackForwardNav({ theme = 'dark' }: { theme?: 'dark' | 'light' })
             ? 'bg-[#181818] border-white/10 text-neutral-300 hover:bg-white/10 hover:text-white' 
             : 'bg-white border-neutral-200 text-neutral-700 hover:bg-neutral-100 hover:text-black'
         }`}
-        title="Back"
+        title="上一頁"
       >
         <ChevronLeft className="w-5 h-5" />
       </motion.button>
@@ -388,7 +388,7 @@ export function BackForwardNav({ theme = 'dark' }: { theme?: 'dark' | 'light' })
             ? 'bg-[#181818] border-white/10 text-neutral-300 hover:bg-white/10 hover:text-white' 
             : 'bg-white border-neutral-200 text-neutral-700 hover:bg-neutral-100 hover:text-black'
         }`}
-        title="Forward"
+        title="下一頁"
       >
         <ChevronRight className="w-5 h-5" />
       </motion.button>

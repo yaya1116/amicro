@@ -8,9 +8,9 @@ interface RadialPoint {
 }
 
 const RADIAL_GAUGE_DATA: RadialPoint[] = [
-  { name: 'Core', val: 90 },
-  { name: 'Memory', val: 72 },
-  { name: 'Cache', val: 54 },
+  { name: "核心", val: 90 },
+  { name: "記憶體", val: 72 },
+  { name: "快取", val: 54 },
 ];
 
 interface MonoRoundedRadialGaugeChartProps {
@@ -36,14 +36,14 @@ export function MonoRoundedRadialGaugeChart({ theme = 'dark', compact = false }:
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Radial Rings
+              同心進度環
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Concentric
+              同心環
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            90% <span className="text-xs font-normal opacity-70">core utilization</span>
+            90% <span className="text-xs font-normal opacity-70">核心使用率</span>
           </div>
         </div>
       </div>
@@ -80,8 +80,8 @@ export function MonoRoundedRadialGaugeChart({ theme = 'dark', compact = false }:
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Concentric Caps</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>3 Progress Meters</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>同心圓弧</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>3 組進度</span>
       </div>
     </div>
   );

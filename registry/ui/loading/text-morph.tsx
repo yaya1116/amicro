@@ -8,14 +8,14 @@ export const TextMorph = () => (
       animate={{ opacity: [1, 0, 0, 1], y: [0, -16, 16, 0] }}
       transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
     >
-      Loading
+      載入中
     </motion.div>
     <motion.div
       className="absolute"
       animate={{ opacity: [0, 1, 1, 0], y: [16, 0, 0, -16] }}
       transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
     >
-      Wait
+      請稍候
     </motion.div>
   </div>
 );

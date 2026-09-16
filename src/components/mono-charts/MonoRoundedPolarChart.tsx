@@ -8,9 +8,9 @@ interface PolarPoint {
 }
 
 const POLAR_DATA: PolarPoint[] = [
-  { name: 'Alpha', count: 90 },
-  { name: 'Beta', count: 65 },
-  { name: 'Gamma', count: 40 },
+  { name: "甲組", count: 90 },
+  { name: "乙組", count: 65 },
+  { name: "丙組", count: 40 },
 ];
 
 interface MonoRoundedPolarChartProps {
@@ -36,14 +36,14 @@ export function MonoRoundedPolarChart({ theme = 'dark', compact = false }: MonoR
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Polar Pillars
+              放射長條
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Radial
+              放射圖
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            3 Bands <span className="text-xs font-normal opacity-70">polar angle</span>
+            3 個區間 <span className="text-xs font-normal opacity-70">極座標角度</span>
           </div>
         </div>
       </div>
@@ -77,8 +77,8 @@ export function MonoRoundedPolarChart({ theme = 'dark', compact = false }: MonoR
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded 360° Polar Arcs</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Radial Pillars</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>360° 圓角極座標</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>放射柱形</span>
       </div>
     </div>
   );

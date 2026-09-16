@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 const SOURCES = [
-  { name: 'Direct', data: [{ x: 50, y: 50, r: 35, color: '#FFFFFF', label: 'US' }, { x: 30, y: 20, r: 20, color: '#E2E8F0', label: 'UK' }, { x: 70, y: 80, r: 25, color: '#CBD5E1', label: 'CA' }] },
-  { name: 'Social', data: [{ x: 40, y: 60, r: 40, color: '#FFFFFF', label: 'IG' }, { x: 70, y: 30, r: 25, color: '#E2E8F0', label: 'TW' }, { x: 20, y: 40, r: 15, color: '#CBD5E1', label: 'FB' }] },
+  { name: "直接流量", data: [{ x: 50, y: 50, r: 35, color: '#FFFFFF', label: 'US' }, { x: 30, y: 20, r: 20, color: '#E2E8F0', label: 'UK' }, { x: 70, y: 80, r: 25, color: '#CBD5E1', label: 'CA' }] },
+  { name: "社群流量", data: [{ x: 40, y: 60, r: 40, color: '#FFFFFF', label: 'IG' }, { x: 70, y: 30, r: 25, color: '#E2E8F0', label: 'TW' }, { x: 20, y: 40, r: 15, color: '#CBD5E1', label: 'FB' }] },
 ];
 
 const smoothstep = (min: number, max: number, value: number) => {

@@ -11,8 +11,8 @@ export function MonoRoundedMeterChart({ theme = 'dark', compact = false }: MonoR
   const val = 78;
 
   const data = [
-    { name: 'Active', value: val },
-    { name: 'Remaining', value: 100 - val },
+    { name: "使用中", value: val },
+    { name: "剩餘", value: 100 - val },
   ];
 
   return (
@@ -30,14 +30,14 @@ export function MonoRoundedMeterChart({ theme = 'dark', compact = false }: MonoR
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Arc Meter
+              弧形儀表
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Speedometer
+              速度儀表
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            {val}% <span className="text-xs font-normal opacity-70">load index</span>
+            {val}% <span className="text-xs font-normal opacity-70">負載指數</span>
           </div>
         </div>
       </div>
@@ -69,14 +69,14 @@ export function MonoRoundedMeterChart({ theme = 'dark', compact = false }: MonoR
 
         <div className="absolute bottom-4 flex flex-col items-center pointer-events-none">
           <span className="text-lg font-bold tabular-nums font-sans">{val}%</span>
-          <span className={`text-[10px] font-mono ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>Optimal Load</span>
+          <span className={`text-[10px] font-mono ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>最佳負載</span>
         </div>
       </div>
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Semi-Circle Arc</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Gauge Meter</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓角半圓弧</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>指標儀表</span>
       </div>
     </div>
   );

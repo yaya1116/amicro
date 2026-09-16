@@ -19,10 +19,10 @@ interface ComposedPoint {
 }
 
 const MONO_COMPOSED_DATA: ComposedPoint[] = [
-  { label: 'Q1', count: 140, trend: 120 },
-  { label: 'Q2', count: 210, trend: 190 },
-  { label: 'Q3', count: 280, trend: 260 },
-  { label: 'Q4', count: 350, trend: 340 },
+  { label: "第一季", count: 140, trend: 120 },
+  { label: "第二季", count: 210, trend: 190 },
+  { label: "第三季", count: 280, trend: 260 },
+  { label: "第四季", count: 350, trend: 340 },
 ];
 
 interface MonoRoundedComposedChartProps {
@@ -52,14 +52,14 @@ export function MonoRoundedComposedChart({ theme = 'dark', compact = false }: Mo
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Mono Hybrid Spline
+              混合趨勢圖
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Pill + Line
+              長條與折線
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            {total} <span className="text-xs font-normal opacity-70">quarterly total</span>
+            {total} <span className="text-xs font-normal opacity-70">季度總量</span>
           </div>
         </div>
 
@@ -77,7 +77,7 @@ export function MonoRoundedComposedChart({ theme = 'dark', compact = false }: Mo
               : 'bg-transparent border-neutral-200 text-neutral-400'
           }`}
         >
-          {showLine ? 'Spline On' : 'Spline Off'}
+          {showLine ? "顯示曲線" : "隱藏曲線"}
         </button>
       </div>
 
@@ -136,10 +136,10 @@ export function MonoRoundedComposedChart({ theme = 'dark', compact = false }: Mo
       {/* Footer Details */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
         <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>
-          Minimalist Monochromatic Layers
+          單色數據層次
         </span>
         <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>
-          Q4 Peak Target
+          第四季目標
         </span>
       </div>
     </div>

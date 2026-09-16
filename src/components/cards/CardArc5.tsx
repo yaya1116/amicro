@@ -50,7 +50,7 @@ export const CardArc5 = React.memo(function CardArc5({
         }
 
         const springConfig = {
-          type: "spring",
+          type: "spring" as const,
           stiffness: 180,
           damping: 20,
           mass: 0.8

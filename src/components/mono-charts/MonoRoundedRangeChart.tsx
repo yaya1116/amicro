@@ -46,14 +46,14 @@ export function MonoRoundedRangeChart({ theme = 'dark', compact = false }: MonoR
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Range Band
+              區間帶狀圖
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Min-Max
+              最小與最大
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            50 <span className="text-xs font-normal opacity-70">variance band</span>
+            50 <span className="text-xs font-normal opacity-70">變異區間</span>
           </div>
         </div>
       </div>
@@ -92,8 +92,8 @@ export function MonoRoundedRangeChart({ theme = 'dark', compact = false }: MonoR
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Spline Boundaries</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Floating Range Band</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>平滑曲線邊界</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>浮動範圍帶</span>
       </div>
     </div>
   );

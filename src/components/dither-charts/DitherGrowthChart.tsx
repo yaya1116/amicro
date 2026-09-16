@@ -77,7 +77,7 @@ export function DitherGrowthChart({ theme = 'dark', compact = false }: DitherGro
   }, [rangeIndex]);
 
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   const pointerPosRef = useRef({ x: -100, y: -100 });
   const pointerActiveRef = useRef(false);
 
@@ -274,7 +274,7 @@ export function DitherGrowthChart({ theme = 'dark', compact = false }: DitherGro
               </span>
             </div>
             <p className={`text-xs ${theme === 'dark' ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Member growth over selected interval
+              所選期間的會員成長
             </p>
           </div>
         </div>
@@ -344,7 +344,7 @@ export function DitherGrowthChart({ theme = 'dark', compact = false }: DitherGro
                   style={{ left: xPos, top: yPos }}
                 >
                   <div className="text-[10px] text-neutral-400 uppercase">{dates[scrubIndex]}</div>
-                  <div>+{data[scrubIndex]} members</div>
+                  <div>+{data[scrubIndex]} 位會員</div>
                 </motion.div>
               </>
             )}

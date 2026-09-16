@@ -114,7 +114,7 @@ export function ChartCard() {
 
   // Animation Refs
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   const morphStartTimeRef = useRef<number>(0);
   const fromSharesRef = useRef<number[]>([]);
   const targetSharesRef = useRef<number[]>([]);

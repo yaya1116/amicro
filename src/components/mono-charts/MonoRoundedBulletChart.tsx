@@ -7,9 +7,9 @@ interface BulletItem {
 }
 
 const BULLET_ITEMS: BulletItem[] = [
-  { title: 'Throughput', actual: 82, target: 75 },
-  { title: 'Latency', actual: 65, target: 80 },
-  { title: 'Uptime', actual: 95, target: 90 },
+  { title: "吞吐量", actual: 82, target: 75 },
+  { title: "延遲", actual: 65, target: 80 },
+  { title: "運作時間", actual: 95, target: 90 },
 ];
 
 interface MonoRoundedBulletChartProps {
@@ -35,14 +35,14 @@ export function MonoRoundedBulletChart({ theme = 'dark', compact = false }: Mono
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Bullet Target
+              目標進度
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Benchmark
+              基準
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            3 Targets <span className="text-xs font-normal opacity-70">evaluated</span>
+            3 個目標 <span className="text-xs font-normal opacity-70">已評估</span>
           </div>
         </div>
       </div>
@@ -79,8 +79,8 @@ export function MonoRoundedBulletChart({ theme = 'dark', compact = false }: Mono
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Bullet Bars</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Benchmark Marker</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓角子彈條</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>基準標記</span>
       </div>
     </div>
   );

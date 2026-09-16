@@ -465,7 +465,7 @@ export function MonoChartsPage({
                     key={slot.id}
                     onClick={() => {
                       triggerHaptic?.('medium');
-                      window.open(checkoutUrl || "https://buy.polar.sh/polar_cl_kgaC0fUqnLvTlW7A7RrvGQRaHzmTKjezxWNaA19AyV4", '_blank');
+                      if (checkoutUrl) window.open(checkoutUrl, '_blank', 'noopener,noreferrer');
                     }}
                     className={`group flex flex-col items-center justify-center text-center p-3 sm:p-3.5 rounded-xl border border-dashed transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-transparent min-h-[78px] ${
                       isDark

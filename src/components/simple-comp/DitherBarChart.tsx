@@ -30,7 +30,7 @@ export function DitherBarChart({ theme = 'dark', compact = false }: { theme?: 'd
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
 
   const period = PERIODS[periodIdx];
   const { data, total, maxVal } = useMemo(() => {

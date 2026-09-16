@@ -18,12 +18,12 @@ interface LinePoint {
 }
 
 const MONO_LINE_DATA: LinePoint[] = [
-  { label: 'Jan', value: 24, secondary: 18 },
-  { label: 'Feb', value: 45, secondary: 32 },
-  { label: 'Mar', value: 38, secondary: 29 },
-  { label: 'Apr', value: 65, secondary: 48 },
-  { label: 'May', value: 52, secondary: 41 },
-  { label: 'Jun', value: 84, secondary: 62 },
+  { label: "一月", value: 24, secondary: 18 },
+  { label: "二月", value: 45, secondary: 32 },
+  { label: "三月", value: 38, secondary: 29 },
+  { label: "四月", value: 65, secondary: 48 },
+  { label: "五月", value: 52, secondary: 41 },
+  { label: "六月", value: 84, secondary: 62 },
 ];
 
 interface MonoRoundedLineChartProps {
@@ -53,14 +53,14 @@ export function MonoRoundedLineChart({ theme = 'dark', compact = false }: MonoRo
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Spline Dynamics
+              平滑曲線
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Line
+              折線
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            {latestVal}k <span className="text-xs font-normal opacity-70">nodes</span>
+            {latestVal}k <span className="text-xs font-normal opacity-70">節點</span>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ export function MonoRoundedLineChart({ theme = 'dark', compact = false }: MonoRo
                   : 'text-neutral-600 hover:text-black'
               }`}
             >
-              {s === 'all' ? 'Dual' : 'Single'}
+              {s === 'all' ? "雙組" : "單組"}
             </button>
           ))}
         </div>
@@ -159,10 +159,10 @@ export function MonoRoundedLineChart({ theme = 'dark', compact = false }: MonoRo
       {/* Footer Metrics */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
         <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>
-          Rounded Caps
+          圓角端點
         </span>
         <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>
-          84k Peak
+          峰值 84k
         </span>
       </div>
     </div>

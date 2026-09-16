@@ -1,19 +1,19 @@
 {
-  "name": "@subhanhq/amicro",
+  "name": "yaya-motion",
   "version": "1.0.1",
-  "description": "Premium React micro-interactions & UI component library powered by Motion. Zero-config CLI tool.",
-  "author": "Syed Subhan <su2491251@gmail.com> (https://x.com/SubhanHQ)",
+  "description": "給設計師與開發者的繁體中文互動元件庫",
+  "author": "Yaya",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Subhan-code/Amicro--Micro-transitions-.git"
+    "url": "git+https://github.com/yaya1116/amicro.git"
   },
   "bugs": {
-    "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/issues"
+    "url": "https://github.com/yaya1116/amicro/issues"
   },
-  "homepage": "https://github.com/Subhan-code/Amicro--Micro-transitions-#readme",
+  "homepage": "https://github.com/yaya1116/amicro#readme",
   "keywords": [
     "react",
     "ui",
@@ -37,7 +37,11 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "sitemap": "tsx scripts/generate-sitemap.ts"
+    "sitemap": "tsx scripts/generate-sitemap.ts",
+    "prepare:catalog": "node scripts/build-catalog.mjs && node scripts/build-source.mjs",
+    "predev": "npm run prepare:catalog",
+    "prebuild": "npm run prepare:catalog",
+    "test": "node --import tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
@@ -53,6 +57,8 @@
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "@vercel/node": "^5.8.27",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
@@ -60,5 +66,6 @@
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.3"
-  }
+  },
+  "private": true
 }

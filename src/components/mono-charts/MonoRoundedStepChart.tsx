@@ -47,14 +47,14 @@ export function MonoRoundedStepChart({ theme = 'dark', compact = false }: MonoRo
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Step Progression
+              階梯進度
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Staircase
+              階梯
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            90 <span className="text-xs font-normal opacity-70">peak step</span>
+            90 <span className="text-xs font-normal opacity-70">最高階段</span>
           </div>
         </div>
       </div>
@@ -86,8 +86,8 @@ export function MonoRoundedStepChart({ theme = 'dark', compact = false }: MonoRo
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Discrete Steps</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Level 6 Active</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>離散階梯</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>第 6 階段</span>
       </div>
     </div>
   );

@@ -23,14 +23,14 @@ export function MonoRoundedSankeyChart({ theme = 'dark', compact = false }: Mono
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Sankey Flow
+              流向分佈
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Transfer
+              傳輸
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            100% <span className="text-xs font-normal opacity-70">flow routed</span>
+            100% <span className="text-xs font-normal opacity-70">流量導向</span>
           </div>
         </div>
       </div>
@@ -42,10 +42,10 @@ export function MonoRoundedSankeyChart({ theme = 'dark', compact = false }: Mono
         {/* Left Source Nodes */}
         <div className="flex flex-col justify-around h-full gap-2 z-10">
           <div className="w-12 h-9 rounded-lg bg-current opacity-90 flex items-center justify-center text-[10px] font-bold font-mono text-background">
-            Source A
+            來源甲
           </div>
           <div className="w-12 h-9 rounded-lg bg-current opacity-60 flex items-center justify-center text-[10px] font-bold font-mono text-background">
-            Source B
+            來源乙
           </div>
         </div>
 
@@ -72,16 +72,16 @@ export function MonoRoundedSankeyChart({ theme = 'dark', compact = false }: Mono
         {/* Right Sink Node */}
         <div className="flex items-center justify-center h-full z-10">
           <div className="w-14 h-14 rounded-xl bg-current flex flex-col items-center justify-center text-[10px] font-bold font-mono text-background shadow-md">
-            <span>Target</span>
-            <span className="text-[9px] font-normal opacity-80">Output</span>
+            <span>目標</span>
+            <span className="text-[9px] font-normal opacity-80">輸出</span>
           </div>
         </div>
       </div>
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Flow Bands</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Channel Routing</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓角流向帶</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>通道分流</span>
       </div>
     </div>
   );

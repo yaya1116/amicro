@@ -50,7 +50,7 @@ export function SubmenuFlyout({ theme = 'dark' }: { theme?: 'dark' | 'light' }) 
           theme === 'dark' ? 'bg-[#181818] border-neutral-700 text-white' : 'bg-white border-neutral-200 text-neutral-900'
         }`}
       >
-        <span>View Details</span>
+        <span>查看詳細內容</span>
         <ChevronRight className="w-3.5 h-3.5 text-neutral-400" />
       </motion.button>
       <AnimatePresence>
@@ -64,7 +64,7 @@ export function SubmenuFlyout({ theme = 'dark' }: { theme?: 'dark' | 'light' }) 
             }`}
           >
             <div className="px-3 py-1.5 text-[11px] rounded-lg hover:bg-blue-600 hover:text-white cursor-pointer whitespace-nowrap">
-              Expanded Panel
+              展開面板
             </div>
           </motion.div>
         )}
@@ -87,7 +87,7 @@ export function MagneticIconButton({ theme = 'dark' }: { theme?: 'dark' | 'light
         theme === 'dark' ? 'bg-[#1e1e1e] border-neutral-700 text-white' : 'bg-white border-neutral-200 text-neutral-900'
       }`}
     >
-      <span>Explore Docs</span>
+      <span>查看文件</span>
       <ArrowRight className="w-3.5 h-3.5 text-blue-400" />
     </motion.button>
   );
@@ -106,7 +106,7 @@ export function MorphActionPill({ theme = 'dark' }: { theme?: 'dark' | 'light' }
         theme === 'dark' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-blue-600 border-blue-500 text-white'
       }`}
     >
-      <span>Action</span>
+      <span>操作</span>
       <AnimatePresence>
         {expanded && (
           <motion.span
@@ -115,7 +115,7 @@ export function MorphActionPill({ theme = 'dark' }: { theme?: 'dark' | 'light' }
             exit={{ opacity: 0, width: 0 }}
             className="text-[11px] font-normal whitespace-nowrap overflow-hidden"
           >
-            → Launch
+            → 啟動
           </motion.span>
         )}
       </AnimatePresence>

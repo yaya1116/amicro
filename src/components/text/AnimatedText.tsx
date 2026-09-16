@@ -20,14 +20,14 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
     setKeyIndex(prev => prev + 1);
   };
 
-  const samplePhrase = "AMICRO UI";
-  const sampleWords = ["Design", "Motion", "Amicro"];
+  const samplePhrase = "讓靈感動起來";
+  const sampleWords = ["一點靈感", "一點動態", "剛剛好的互動"];
 
   return (
     <div 
       onClick={replay}
       className="relative flex flex-col items-center justify-center w-full h-full cursor-pointer select-none px-4 group"
-      title="Click to replay animation"
+      title="點擊重播動效"
     >
       <div className="flex items-center justify-center w-full min-h-[60px] text-center">
         {(() => {
@@ -43,7 +43,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                     transition={{ duration: 0.85, ease: [0.16, 1, 0.3, 1] }}
                     className={isDark ? 'text-white' : 'text-black'}
                   >
-                    DIA REVEAL
+                    讓靈感動起來
                   </motion.div>
                 </div>
               );
@@ -58,7 +58,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                   transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                   className={`font-bold text-2xl ${isDark ? 'text-white' : 'text-black'}`}
                 >
-                  BLUR REVEAL
+                  讓靈感清晰
                 </motion.div>
               );
 
@@ -69,7 +69,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                     ? 'from-neutral-400 via-white to-neutral-400' 
                     : 'from-neutral-600 via-black to-neutral-600'
                 } bg-clip-text text-transparent animate-pulse`}>
-                  SHIMMER TEXT
+                  讓文字發光
                 </div>
               );
 
@@ -84,7 +84,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                       isDark ? 'text-emerald-400 border-emerald-400' : 'text-emerald-600 border-emerald-600'
                     }`}
                   >
-                    TYPEWRITER
+                    把靈感寫下來
                   </motion.span>
                 </div>
               );
@@ -98,7 +98,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                     transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1] }}
                     className={isDark ? 'text-white' : 'text-black'}
                   >
-                    CINEMATIC
+                    讓精彩登場
                   </motion.div>
                 </div>
               );
@@ -146,7 +146,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                   transition={{ duration: 0.8 }}
                   className={`font-bold text-2xl ${isDark ? 'text-white' : 'text-black'}`}
                 >
-                  FADE IN TEXT
+                  剛剛好的出場
                 </motion.div>
               );
 
@@ -245,7 +245,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                     transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                     className={`font-bold text-2xl ${isDark ? 'text-white' : 'text-black'}`}
                   >
-                    SLIDE UP TEXT
+                    靈感慢慢浮現
                   </motion.div>
                 </div>
               );
@@ -413,7 +413,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                   transition={{ type: 'spring', stiffness: 400, damping: 25 }}
                   className={`font-bold text-2xl ${isDark ? 'text-white' : 'text-black'}`}
                 >
-                  SCALE IN TEXT
+                  放大你的想像
                 </motion.div>
               );
 
@@ -426,7 +426,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                   transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                   className={`font-extrabold text-2xl ${isDark ? 'text-amber-400' : 'text-amber-600'}`}
                 >
-                  ZOOM IN
+                  靠近一點靈感
                 </motion.div>
               );
 
@@ -439,7 +439,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                   transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                   className={`font-extrabold text-2xl ${isDark ? 'text-amber-400' : 'text-amber-600'}`}
                 >
-                  ZOOM OUT
+                  看見更多可能
                 </motion.div>
               );
 
@@ -573,7 +573,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                   transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                   className={`font-black text-xl uppercase ${isDark ? 'text-white' : 'text-black'}`}
                 >
-                  TRACKING IN
+                  把靈感聚在一起
                 </motion.div>
               );
 
@@ -586,7 +586,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                   transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                   className={`font-black text-xl uppercase ${isDark ? 'text-white' : 'text-black'}`}
                 >
-                  TRACKING OUT
+                  讓想像展開
                 </motion.div>
               );
 
@@ -728,7 +728,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ config, theme }) => 
                   transition={{ duration: 2, repeat: Infinity }}
                   className={`font-black text-3xl tracking-tight ${isDark ? 'text-indigo-300' : 'text-indigo-600'}`}
                 >
-                  GLOW TEXT
+                  一點微光
                 </motion.div>
               );
 

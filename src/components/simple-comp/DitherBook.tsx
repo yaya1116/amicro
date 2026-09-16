@@ -45,7 +45,7 @@ export function Book({
   const [flipState, setFlipState] = useState<{ active: boolean, from: number, to: number, dir: number }>({ active: false, from: 0, to: 0, dir: 1 });
 
   const animDuration = isIntro ? 0.14 : 0.45;
-  const animEase = isIntro ? "linear" : [0.33, 1, 0.68, 1];
+  const animEase: "linear" | [number, number, number, number] = isIntro ? "linear" : [0.33, 1, 0.68, 1];
 
   useEffect(() => {
     if (currentIndex !== localIndex) {

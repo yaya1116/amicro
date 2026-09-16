@@ -7,10 +7,10 @@ interface PyramidLevel {
 }
 
 const PYRAMID_LEVELS: PyramidLevel[] = [
-  { label: 'Executive', widthPct: 30, opacity: 1 },
-  { label: 'Management', widthPct: 50, opacity: 0.7 },
-  { label: 'Senior Staff', widthPct: 70, opacity: 0.45 },
-  { label: 'Core Team', widthPct: 90, opacity: 0.25 },
+  { label: "決策層", widthPct: 30, opacity: 1 },
+  { label: "管理層", widthPct: 50, opacity: 0.7 },
+  { label: "資深成員", widthPct: 70, opacity: 0.45 },
+  { label: "核心團隊", widthPct: 90, opacity: 0.25 },
 ];
 
 interface MonoRoundedPyramidChartProps {
@@ -36,14 +36,14 @@ export function MonoRoundedPyramidChart({ theme = 'dark', compact = false }: Mon
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Pyramid Stack
+              金字塔層級
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Hierarchy
+              層級
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            4 Tiers <span className="text-xs font-normal opacity-70">structured</span>
+            4 層 <span className="text-xs font-normal opacity-70">結構化</span>
           </div>
         </div>
       </div>
@@ -70,8 +70,8 @@ export function MonoRoundedPyramidChart({ theme = 'dark', compact = false }: Mon
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Tier Layers</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Pyramid Hierarchy</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓角層級</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>金字塔結構</span>
       </div>
     </div>
   );

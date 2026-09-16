@@ -1,138 +1,65 @@
-# @subhanhq/amicro
+# Yaya Motion
 
-A curated collection of premium React micro-interactions, transition components, and card layouts powered by **Motion**.
+給設計師與開發者的繁體中文互動元件庫，以鈷藍、黑白、幾何網格與浮動卡片呈現。網站介面與中文內容重新設計，品牌名稱目前使用 Yaya Motion。
 
-[![npm version](https://img.shields.io/npm/v/@subhanhq/amicro?style=for-the-badge&color=000000&logo=npm&logoColor=white)](https://www.npmjs.com/package/@subhanhq/amicro)
-[![License](https://img.shields.io/github/license/Subhan-code/Amicro--Micro-transitions-?style=for-the-badge&color=000000&logo=opensourceinitiative&logoColor=white)](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/Subhan-code/Amicro--Micro-transitions-?style=for-the-badge&color=000000&logo=github&logoColor=white)](https://github.com/Subhan-code/Amicro--Micro-transitions-/stargazers)
-[![Sponsor](https://img.shields.io/badge/Sponsor%20%E2%9D%A4%EF%B8%8F-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/Subhan-code)
+## 功能
 
----
+- 332 個元件：按鈕、卡片與輪播、文字動態、載入動效、數據圖表、網點圖表及互動實驗。
+- 動效預覽、中文與英文搜尋、分類、排序，以及儲存在目前瀏覽器的個人收藏。
+- 元件原始碼、使用範例及本機相依檔案可查看與複製，附帶 MIT 授權聲明。
+- 響應式版面、深淺色模式、手機導覽及使用指南。
+- 預留 Portaly 商品頁付款入口；未設定連結時不開放購買。
 
-```text
-╭──────────────────────── Amicro CLI ────────────────────────╮
-│ npx @subhanhq/amicro@latest init     initialize project    │
-│ npx @subhanhq/amicro@latest add      add UI components     │
-╰────────────────────────────────────────────────────────────╯
-```
+## 本機啟動
 
----
-
-## ⚡️ Quick Start
-
-### Installation
+建議使用 Node.js 22 LTS 或更新的相容版本。
 
 ```bash
-npm install @subhanhq/amicro
-# or
-yarn add @subhanhq/amicro
-# or
-pnpm add @subhanhq/amicro
+npm ci
+npm run dev
 ```
 
-### CLI Command Usage
+開啟終端顯示的 `http://localhost:3000`。此專案使用 React 與 Vite，請透過開發伺服器預覽，不要直接開啟 `index.html` 檔案。
+
+## 驗證與部署
 
 ```bash
-# 1. Initialize configuration in your React / Next.js / Vite project
-npx @subhanhq/amicro@latest init
-
-# 2. Add individual components directly to your codebase
-npx @subhanhq/amicro@latest add download-button
-
-# 3. Add card interaction components
-npx @subhanhq/amicro@latest add card-arc-5
+npm run lint
+npm run build
+npm test
 ```
 
----
+`lint` 執行 TypeScript 檢查；測試檢查 Portaly 網址及所有元件的中文名稱、程式碼與授權檔。開發與建置前會自動產生元件目錄及程式碼資源，無須提交 `public/component-source/`。
 
+部署至 Vercel 時使用 Vite 預設：建置指令 `npm run build`、輸出目錄 `dist`。專案內的 `vercel.json` 已包含單頁應用路由設定。其他靜態主機也須將應用路徑導向 `index.html`。網站目前假設部署在網域根目錄。
 
-## 🎨 shadcn/ui Registry Integration
+## Portaly 設定
 
-You can add **Amicro** motion primitives, custom hooks, and spring presets directly to your project using the shadcn CLI!
+複製 `.env.example` 為 `.env.local`，填入正式商品資料：
 
-### 1. Direct URL Installation
-You can install any component directly by referencing its public raw URL:
-```bash
-npx shadcn add https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/main/registry/ui/fade-in.json
+```dotenv
+VITE_PORTALY_PRODUCT_URL=https://portaly.cc/你的商品路徑
+VITE_PRODUCT_NAME=你的商品名稱
+VITE_PRODUCT_PRICE=你的售價文字
 ```
 
-### 2. Namespaced Registry Mapping (Recommended)
-Add the `@amicro` namespace to the `registries` field in your project's `components.json`:
-```json
-{
-  "registries": {
-    "@amicro": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/main/registry/{name}.json"
-  }
-}
-```
-Now, you can install any component, hook, or utility directly by name:
-```bash
-# Install entrance transition components (placed under components/amicro/)
-npx shadcn add @amicro/fade-in
-npx shadcn add @amicro/fade-up
-npx shadcn add @amicro/zoom-in
+上方網址僅示意，需換成實際 Portaly 商品網址。修改後重新啟動或建置。只有合法的 Portaly HTTPS 網址會開啟購買按鈕；訪客會前往 Portaly 完成結帳。尚未設定時顯示「尚未開放購買」。
 
-# Install hover & text components
-npx shadcn add @amicro/tilt-card
-npx shadcn add @amicro/magnetic-button
-npx shadcn add @amicro/text-reveal
+目前尚未串接 Payment API、付款回呼、會員權限或自動解鎖下載。商品內容、售價與正式連結待提供後完成設定。`VITE_` 開頭的變數會公開於前端，請勿放入金鑰。
 
-# Install hooks & utilities
-npx shadcn add @amicro/use-scroll-progress
-npx shadcn add @amicro/presets
-```
+若需要 sitemap，先在執行環境設定正式 HTTPS 網址 `SITE_URL`，再執行 `npm run sitemap` 並重新建置。
 
----
+## 專案結構
 
-## 💻 Card Components & CLI Commands
+- `src/App.tsx`：網站導覽、搜尋、收藏與頁面切換。
+- `src/components/studio/`：首頁視覺、預覽、元件詳情、方案與指南。
+- `src/config/site.ts`：品牌與商品設定。
+- `src/data/zh-TW.json`：元件中文名稱。
+- `scripts/build-catalog.mjs`：產生可搜尋的元件目錄。
+- `scripts/build-source.mjs`：產生使用範例與可複製的原始碼檔案。
 
-| Component | Description | CLI Command |
-| :--- | :--- | :--- |
-| **ARC (5 Cards)** | Fanned card layout forming a neat curved arc with 5 items | `npx @subhanhq/amicro@latest add card-arc-5` |
-| **ARC (7 Cards)** | Expanded card arc layout accommodating 7 items cleanly | `npx @subhanhq/amicro@latest add card-arc-7` |
-| **Long ARC (5 Cards)** | Wide, sweeping card arc extending translations laterally | `npx @subhanhq/amicro@latest add card-long-arc-5` |
-| **Linear Spread** | Slides cards horizontally in a linear row without rotations | `npx @subhanhq/amicro@latest add card-linear-spread` |
-| **Corner Fan** | Fans elements radially from a fixed bottom-left origin anchor | `npx @subhanhq/amicro@latest add card-corner-fan` |
-| **Stamp Arc** | Perforated stamp cards with dynamic arc, gap, and offset controls | `npx @subhanhq/amicro@latest add card-stamp-arc` |
-| **Cascade Stagger** | Deploys cards vertically and staggered in a diagonal cascade | `npx @subhanhq/amicro@latest add card-cascade-stagger` |
-| **Scatter Desk Deal** | Scatters cards into an overlapping dealt hand layout on hover | `npx @subhanhq/amicro@latest add card-scatter-spread` |
-| **Wheel Radial Fan** | Fans cards outward in a radial semi-circle around center anchor | `npx @subhanhq/amicro@latest add card-wheel-fan` |
-| **Interactive Carousel** | An interactive arc-based 3D motion carousel featuring smooth dot indicators and dynamic prev/next controls, inspired by vivi | `npx @subhanhq/amicro@latest add card-carousel` |
-| **CoverFlow Carousel** | Premium 3D CoverFlow carousel displaying cards along perspective path | `npx @subhanhq/amicro@latest add card-cover-flow` |
-| **Time Machine Stack** | Apple-style perspective depth card stack with timeline scrubber | `npx @subhanhq/amicro@latest add card-time-machine` |
+## 開源授權
 
----
+部分互動元件基於 [Amicro](https://github.com/Subhan-code/Amicro--Micro-transitions-) 開源專案，採 MIT 授權。原始著作權及授權條款保留在 [LICENSE](LICENSE)，並附於網站提供的程式碼。圖像、外部素材及商標須遵循各自的授權。
 
-## ✨ Key Features
-
-- ⚡️ **Clean Micro-transitions**: Hardware-accelerated animations powered by `motion/react`.
-- 📦 **Zero Runtime Overhead**: Copy-to-code components copy TSX source directly into your codebase.
-- 🌓 **Dark & Light Mode**: Tailored for both dark and light UI palettes.
-- 🎨 **Harmonious Aesthetics**: Designed to feel fluid, responsive, and state of the art.
-
----
-
-## 🛠️ Prerequisites & Requirements
-
-- **Node.js**: `v18.0.0` or higher
-- **React**: `^18.0.0` or `^19.0.0`
-- **Tailwind CSS**: `v3` or `v4`
-- **Motion**: `motion` or `framer-motion`
-
----
-
-## 👤 Author & Support
-
-Created with ❤️ by **Syed Subhan**
-
-- **Twitter**: [@SubhanHQ](https://x.com/SubhanHQ)
-- **Email**: [su2491251@gmail.com](mailto:su2491251@gmail.com)
-- **GitHub**: [@Subhan-code](https://github.com/Subhan-code)
-- **Support**: [Sponsor on GitHub](https://github.com/sponsors/Subhan-code) | [Support on Ko-fi](https://ko-fi.com/subhanuddin)
-
----
-[![RepoStars](https://repostars.dev/api/embed?repo=Subhan-code%2FAmicro--Micro-transitions-&theme=light)](https://repostars.dev/?repos=Subhan-code%2FAmicro--Micro-transitions-&theme=light)
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+本專案維護於 [yaya1116/amicro](https://github.com/yaya1116/amicro)。

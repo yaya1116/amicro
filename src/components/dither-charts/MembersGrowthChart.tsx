@@ -78,7 +78,7 @@ export function MembersGrowthChart() {
 
   // Animation Refs
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   const pointerPosRef = useRef({ x: -100, y: -100 });
   const pointerActiveRef = useRef(false);
   

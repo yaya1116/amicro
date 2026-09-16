@@ -10,10 +10,10 @@ interface DonutSegment {
 }
 
 const MONO_DONUT_DATA: DonutSegment[] = [
-  { name: 'Core Engine', value: 45, shade: '#FFFFFF' },
-  { name: 'UI Layer', value: 30, shade: '#CBD5E1' },
-  { name: 'Assets', value: 15, shade: '#94A3B8' },
-  { name: 'Other', value: 10, shade: '#64748B' },
+  { name: "核心引擎", value: 45, shade: '#FFFFFF' },
+  { name: "介面層", value: 30, shade: '#CBD5E1' },
+  { name: "資源", value: 15, shade: '#94A3B8' },
+  { name: "其他", value: 10, shade: '#64748B' },
 ];
 
 interface MonoRoundedDonutChartProps {
@@ -43,14 +43,14 @@ export function MonoRoundedDonutChart({ theme = 'dark', compact = false }: MonoR
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Mono Rounded Donut
+              分段環形圖
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Soft Arc Caps
+              圓弧端點
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            {total}% <span className="text-xs font-normal opacity-70">allocation</span>
+            {total}% <span className="text-xs font-normal opacity-70">分配比例</span>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ export function MonoRoundedDonutChart({ theme = 'dark', compact = false }: MonoR
             {hoverIndex !== null ? `${MONO_DONUT_DATA[hoverIndex].value}%` : '100%'}
           </span>
           <span className={`text-[10px] ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-            {hoverIndex !== null ? MONO_DONUT_DATA[hoverIndex].name : 'Mono Arc'}
+            {hoverIndex !== null ? MONO_DONUT_DATA[hoverIndex].name : "圓弧"}
           </span>
         </div>
       </div>

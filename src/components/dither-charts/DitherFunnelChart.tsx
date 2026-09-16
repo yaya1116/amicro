@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 const STAGES_DATA = [
-  { name: 'Q1 Funnel', stages: [{ label: 'Visitors', val: 100, color: '#FFFFFF' }, { label: 'Leads', val: 62, color: '#E2E8F0' }, { label: 'Deals', val: 38, color: '#CBD5E1' }, { label: 'Won', val: 18, color: '#94A3B8' }] },
-  { name: 'Q2 Funnel', stages: [{ label: 'Visitors', val: 100, color: '#FFFFFF' }, { label: 'Leads', val: 74, color: '#E2E8F0' }, { label: 'Deals', val: 45, color: '#CBD5E1' }, { label: 'Won', val: 24, color: '#94A3B8' }] },
+  { name: "第一季漏斗", stages: [{ label: "訪客", val: 100, color: '#FFFFFF' }, { label: "潛在客戶", val: 62, color: '#E2E8F0' }, { label: "洽談", val: 38, color: '#CBD5E1' }, { label: "成交", val: 18, color: '#94A3B8' }] },
+  { name: "第二季漏斗", stages: [{ label: "訪客", val: 100, color: '#FFFFFF' }, { label: "潛在客戶", val: 74, color: '#E2E8F0' }, { label: "洽談", val: 45, color: '#CBD5E1' }, { label: "成交", val: 24, color: '#94A3B8' }] },
 ];
 
 const smoothstep = (min: number, max: number, value: number) => {

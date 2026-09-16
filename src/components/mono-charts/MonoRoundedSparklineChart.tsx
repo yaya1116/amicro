@@ -10,17 +10,17 @@ interface SparkRow {
 
 const SPARK_ROWS: SparkRow[] = [
   {
-    name: 'CPU Temp',
+    name: "處理器溫度",
     val: '42°C',
     data: [{ x: 1, y: 10 }, { x: 2, y: 25 }, { x: 3, y: 18 }, { x: 4, y: 40 }, { x: 5, y: 30 }],
   },
   {
-    name: 'GPU Temp',
+    name: "顯示晶片溫度",
     val: '58°C',
     data: [{ x: 1, y: 15 }, { x: 2, y: 30 }, { x: 3, y: 22 }, { x: 4, y: 55 }, { x: 5, y: 48 }],
   },
   {
-    name: 'Fan Speed',
+    name: "風扇轉速",
     val: '1.2k RPM',
     data: [{ x: 1, y: 40 }, { x: 2, y: 35 }, { x: 3, y: 60 }, { x: 4, y: 50 }, { x: 5, y: 80 }],
   },
@@ -50,14 +50,14 @@ export function MonoRoundedSparklineChart({ theme = 'dark', compact = false }: M
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Sparklines
+              迷你趨勢圖
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Telemetry
+              即時數據
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            3 Rows <span className="text-xs font-normal opacity-70">active</span>
+            3 組數據 <span className="text-xs font-normal opacity-70">運作中</span>
           </div>
         </div>
       </div>
@@ -94,8 +94,8 @@ export function MonoRoundedSparklineChart({ theme = 'dark', compact = false }: M
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Mini Splines</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Real-Time Telemetry</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>平滑迷你曲線</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>即時數據回饋</span>
       </div>
     </div>
   );

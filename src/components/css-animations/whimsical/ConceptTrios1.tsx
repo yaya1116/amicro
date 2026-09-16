@@ -158,7 +158,7 @@ export function ShutterSlide({
       `}</style>
       <div key={activeKey} className="relative w-[120px] h-[75px] rounded-2xl overflow-hidden border border-neutral-700 bg-blue-600 flex items-center justify-center">
         {/* Revealed Inner Content */}
-        <span className="text-xs font-bold text-white tracking-wider">OPEN</span>
+        <span className="text-xs font-bold text-white tracking-wider">開啟</span>
         {/* Left Shutter */}
         <div className={`absolute top-0 left-0 w-1/2 h-full shutter-panel-left border-r ${
           theme === 'dark' ? 'bg-[#1c1c1e] border-[#2c2c2e]' : 'bg-[#e5e5ea] border-[#d1d1d6]'

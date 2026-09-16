@@ -8,7 +8,7 @@ export const TextBlink = () => {
       animate={{ opacity: [1, 0.2, 1] }}
       transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
     >
-      Thinking
+      思考中
     </motion.div>
   );
 };

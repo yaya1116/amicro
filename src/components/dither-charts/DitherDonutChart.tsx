@@ -5,19 +5,19 @@ import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 type Plan = { name: string; color: string; base: number };
 const PLANS: Plan[] = [
-  { name: 'Unlimited', color: '#FFFFFF', base: 1240 },
+  { name: "無限制", color: '#FFFFFF', base: 1240 },
   { name: '30-day pass', color: '#E2E8F0', base: 980 },
   { name: '10-class pack', color: '#CBD5E1', base: 620 },
   { name: 'Drop-in', color: '#94A3B8', base: 410 },
-  { name: 'Student', color: '#64748B', base: 300 },
+  { name: "學生", color: '#64748B', base: 300 },
 ];
 
 type Period = { name: string; mult: number };
 const PERIODS: Period[] = [
-  { name: 'Week', mult: 0.42 },
-  { name: 'Month', mult: 1 },
-  { name: 'Quarter', mult: 2.6 },
-  { name: 'Year', mult: 8.4 },
+  { name: "週", mult: 0.42 },
+  { name: "月", mult: 1 },
+  { name: "季", mult: 2.6 },
+  { name: "年", mult: 8.4 },
 ];
 
 const smoothstep = (min: number, max: number, value: number) => {
@@ -119,7 +119,7 @@ export function DitherDonutChart({ theme = 'dark', compact = false }: DitherDonu
   }, [periodIndex]);
 
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   const morphStartTimeRef = useRef<number>(0);
   const fromSharesRef = useRef<number[]>([]);
   const targetSharesRef = useRef<number[]>([]);
@@ -283,9 +283,9 @@ export function DitherDonutChart({ theme = 'dark', compact = false }: DitherDonu
             <Users className="w-4 h-4" />
           </div>
           <div>
-            <h4 className="text-sm font-bold">Plan Distribution</h4>
+            <h4 className="text-sm font-bold">方案分佈</h4>
             <p className={`text-[11px] ${theme === 'dark' ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Dithered canvas chart with real-time spring physics
+              搭配彈簧動態的網點圖表
             </p>
           </div>
         </div>

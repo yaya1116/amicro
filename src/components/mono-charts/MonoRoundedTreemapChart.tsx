@@ -8,10 +8,10 @@ interface TileNode {
 }
 
 const TREEMAP_TILES: TileNode[] = [
-  { label: 'Storage', share: 45, flex: 'col-span-2 row-span-2', opacity: 1 },
-  { label: 'Compute', share: 30, flex: 'col-span-1 row-span-2', opacity: 0.6 },
-  { label: 'Network', share: 15, flex: 'col-span-2 row-span-1', opacity: 0.35 },
-  { label: 'Cache', share: 10, flex: 'col-span-1 row-span-1', opacity: 0.2 },
+  { label: "儲存", share: 45, flex: 'col-span-2 row-span-2', opacity: 1 },
+  { label: "運算", share: 30, flex: 'col-span-1 row-span-2', opacity: 0.6 },
+  { label: "網路", share: 15, flex: 'col-span-2 row-span-1', opacity: 0.35 },
+  { label: "快取", share: 10, flex: 'col-span-1 row-span-1', opacity: 0.2 },
 ];
 
 interface MonoRoundedTreemapChartProps {
@@ -37,14 +37,14 @@ export function MonoRoundedTreemapChart({ theme = 'dark', compact = false }: Mon
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Tile Treemap
+              矩形樹狀圖
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Allocation
+              分配
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            100% <span className="text-xs font-normal opacity-70">partitioned</span>
+            100% <span className="text-xs font-normal opacity-70">分區</span>
           </div>
         </div>
       </div>
@@ -74,8 +74,8 @@ export function MonoRoundedTreemapChart({ theme = 'dark', compact = false }: Mon
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Corner Tiles</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>4 Resource Partitions</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓角區塊</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>4 個資源分區</span>
       </div>
     </div>
   );

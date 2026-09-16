@@ -1,0 +1,2990 @@
+[
+  {
+    "id": "btn-1",
+    "original": "Download for Mac",
+    "name": "立即下載",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "slide-arrow"
+  },
+  {
+    "id": "btn-2",
+    "original": "Star on GitHub",
+    "name": "閃耀收藏",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "sparkle"
+  },
+  {
+    "id": "btn-3",
+    "original": "Deploy App",
+    "name": "發佈作品",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-4",
+    "original": "Copy Hash",
+    "name": "複製連結",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-5",
+    "original": "Sponsor",
+    "name": "支持創作",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "pulse"
+  },
+  {
+    "id": "btn-6",
+    "original": "Share",
+    "name": "分享靈感",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-7",
+    "original": "Preview",
+    "name": "開始播放",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-8",
+    "original": "Settings",
+    "name": "偏好設定",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "rotate"
+  },
+  {
+    "id": "btn-9",
+    "original": "Delete",
+    "name": "移除項目",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "shake"
+  },
+  {
+    "id": "btn-10",
+    "original": "Subscribe",
+    "name": "接收通知",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "ring"
+  },
+  {
+    "id": "btn-11",
+    "original": "Search",
+    "name": "搜尋內容",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-12",
+    "original": "Theme",
+    "name": "切換主題",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-13",
+    "original": "Microphone",
+    "name": "開啟麥克風",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-14",
+    "original": "Camera",
+    "name": "開啟相機",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-15",
+    "original": "Volume",
+    "name": "調整音量",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-16",
+    "original": "Lock",
+    "name": "解鎖內容",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-17",
+    "original": "Directory",
+    "name": "開啟資料夾",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-18",
+    "original": "Visibility",
+    "name": "顯示內容",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-19",
+    "original": "Save Later",
+    "name": "稍後閱讀",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "color-morph"
+  },
+  {
+    "id": "btn-20",
+    "original": "Like",
+    "name": "喜歡這個",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "color-morph"
+  },
+  {
+    "id": "btn-21",
+    "original": "Download",
+    "name": "下載檔案",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-22",
+    "original": "Upload",
+    "name": "上傳作品",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-23",
+    "original": "Account",
+    "name": "個人帳號",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-24",
+    "original": "Submit",
+    "name": "確認送出",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-25",
+    "original": "Edit",
+    "name": "編輯內容",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-26",
+    "original": "Network",
+    "name": "連線狀態",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-27",
+    "original": "Power",
+    "name": "開啟電源",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-28",
+    "original": "Expand",
+    "name": "展開畫面",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "morph"
+  },
+  {
+    "id": "btn-29",
+    "original": "Reload",
+    "name": "重新整理",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "rotate"
+  },
+  {
+    "id": "btn-30",
+    "original": "Favorite",
+    "name": "加入最愛",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "color-morph"
+  },
+  {
+    "id": "btn-31",
+    "original": "Glare Shine",
+    "name": "流光按鈕",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "glare"
+  },
+  {
+    "id": "btn-32",
+    "original": "Text Reveal",
+    "name": "文字揭幕",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "text-reveal"
+  },
+  {
+    "id": "btn-33",
+    "original": "Magnetic Field",
+    "name": "磁吸按鈕",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "magnetic"
+  },
+  {
+    "id": "btn-34",
+    "original": "Expand Ring",
+    "name": "外擴光環",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "expand-ring"
+  },
+  {
+    "id": "btn-35",
+    "original": "Focus Blur Links",
+    "name": "焦點連結",
+    "category": "buttons",
+    "categoryLabel": "按鈕互動",
+    "description": "讓點擊多一點回饋。移入、點擊或輕觸，試試不同的狀態變化。",
+    "interaction": "focus-blur"
+  },
+  {
+    "id": "card-arc-5",
+    "original": "ARC (5 Cards)",
+    "name": "五張弧形展開",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-arc-5"
+  },
+  {
+    "id": "card-arc-7",
+    "original": "ARC (7 Cards)",
+    "name": "七張弧形展開",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-arc-7"
+  },
+  {
+    "id": "card-long-arc-5",
+    "original": "Long ARC (5 Cards)",
+    "name": "寬幅弧形展開",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-long-arc-5"
+  },
+  {
+    "id": "card-linear-spread",
+    "original": "Linear Spread",
+    "name": "水平卡片展開",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-linear-spread"
+  },
+  {
+    "id": "card-corner-fan",
+    "original": "Corner Fan",
+    "name": "角落扇形展開",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-corner-fan"
+  },
+  {
+    "id": "card-stamp-arc",
+    "original": "Stamp Arc (Adjustable)",
+    "name": "郵票卡片組",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-stamp-arc"
+  },
+  {
+    "id": "card-cascade-stagger",
+    "original": "Cascade Stagger Fan",
+    "name": "階梯錯位卡片",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-cascade-stagger"
+  },
+  {
+    "id": "card-scatter-spread",
+    "original": "Scatter Desk Deal",
+    "name": "散落桌面卡片",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-scatter-spread"
+  },
+  {
+    "id": "card-wheel-fan",
+    "original": "Wheel Radial Fan",
+    "name": "放射扇形卡片",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-wheel-fan"
+  },
+  {
+    "id": "card-carousel",
+    "original": "Interactive Carousel",
+    "name": "弧形立體輪播",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-carousel"
+  },
+  {
+    "id": "card-cover-flow",
+    "original": "CoverFlow Carousel",
+    "name": "封面立體輪播",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-cover-flow"
+  },
+  {
+    "id": "card-time-machine",
+    "original": "Time Machine Stack",
+    "name": "時光卡片堆疊",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-time-machine"
+  },
+  {
+    "id": "card-carousel-mono",
+    "original": "Interactive Carousel (Monochrome)",
+    "name": "單色弧形輪播",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-carousel-mono"
+  },
+  {
+    "id": "card-cover-flow-mono",
+    "original": "CoverFlow Carousel (Monochrome)",
+    "name": "單色封面輪播",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-cover-flow-mono"
+  },
+  {
+    "id": "card-time-machine-mono",
+    "original": "Time Machine Stack (Monochrome)",
+    "name": "單色時光堆疊",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "把資訊整理成有層次的卡片。移入預覽區，觀察展開的節奏與空間感。",
+    "interaction": "card-time-machine-mono"
+  },
+  {
+    "id": "wave-physics-loader",
+    "original": "Wave Physics",
+    "name": "波浪物理",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "pulse-dots",
+    "original": "Pulse Dots",
+    "name": "脈動圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "bounce-dots",
+    "original": "Bounce Dots",
+    "name": "彈跳圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "liquid-dots",
+    "original": "Liquid Dots",
+    "name": "液態圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "fade-dots",
+    "original": "Fade Dots",
+    "name": "漸隱圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "swapping-dots",
+    "original": "Swapping Dots",
+    "name": "交換圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "bouncing-dots",
+    "original": "Bouncing Dots",
+    "name": "連續彈跳",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "bobbing-dots",
+    "original": "Bobbing Dots",
+    "name": "上下浮點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "pulse-dot",
+    "original": "Pulse Dot",
+    "name": "單點脈動",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "wave-dots",
+    "original": "Wave Dots",
+    "name": "波浪圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "grid-dots",
+    "original": "Grid Dots",
+    "name": "網格圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "pulsating-dots",
+    "original": "Pulsating Dots",
+    "name": "呼吸圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "triple-dot-spinner",
+    "original": "Triple Dot",
+    "name": "三點旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "ripple-effect",
+    "original": "Ripple Effect",
+    "name": "水波漣漪",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "breathing-glow",
+    "original": "Breathing Glow",
+    "name": "呼吸光暈",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "apple-breathe",
+    "original": "Apple Breathe",
+    "name": "花瓣呼吸",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "apple-pulse-dots",
+    "original": "Apple Pulse",
+    "name": "節奏脈動",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "smooth-dot-shift",
+    "original": "Smooth Shift",
+    "name": "平滑換位",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "spring-dot-matrix",
+    "original": "Spring Matrix",
+    "name": "彈簧矩陣",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "fluid-dot-orbit",
+    "original": "Fluid Orbit",
+    "name": "流體軌道",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "magnetic-dots",
+    "original": "Magnetic Dots",
+    "name": "磁吸圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "drop-dot",
+    "original": "Drop Dot",
+    "name": "墜落圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "morph-dot-ring",
+    "original": "Morph Ring",
+    "name": "變形圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "apple-scale-pulse",
+    "original": "Scale Pulse",
+    "name": "縮放脈動",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "trailing-dots",
+    "original": "Trailing Dots",
+    "name": "拖尾圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "classic-spinner",
+    "original": "Classic Spinner",
+    "name": "經典旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "ring-sweep",
+    "original": "Ring Sweep",
+    "name": "圓環掃描",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "concentric-ring",
+    "original": "Concentric Ring",
+    "name": "同心圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "dots-ring",
+    "original": "Dots Ring",
+    "name": "點狀圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "twin-orbit",
+    "original": "Twin Orbit",
+    "name": "雙重軌道",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "comet-spinner",
+    "original": "Comet Spinner",
+    "name": "彗星旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "swirling-spinner",
+    "original": "Swirling Spinner",
+    "name": "漩渦旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "radar-sweep",
+    "original": "Radar Sweep",
+    "name": "雷達掃描",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "orbiting-dot",
+    "original": "Orbiting Dot",
+    "name": "環繞圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "orbiting-circles",
+    "original": "Orbiting Circles",
+    "name": "環繞圓圈",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "intersecting-rings",
+    "original": "Intersecting Rings",
+    "name": "交錯圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "clock-spinner",
+    "original": "Clock Spinner",
+    "name": "時鐘旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "gears",
+    "original": "Gears",
+    "name": "齒輪運轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "cross-spinner",
+    "original": "Cross Spinner",
+    "name": "十字旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "line-spinner",
+    "original": "Line Spinner",
+    "name": "線段旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "square-spinner",
+    "original": "Square Spinner",
+    "name": "方形旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "dual-arc",
+    "original": "Dual Arc",
+    "name": "雙弧旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "fade-arc",
+    "original": "Fade Arc",
+    "name": "漸隱圓弧",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "dash-ring",
+    "original": "Dash Ring",
+    "name": "虛線圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "arc-tracer",
+    "original": "Arc Tracer",
+    "name": "弧線追蹤",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "ios-spinner",
+    "original": "iOS Spinner",
+    "name": "放射旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "smooth-ring",
+    "original": "Smooth Ring",
+    "name": "流暢圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "morphing-ring",
+    "original": "Morphing Ring",
+    "name": "變形環圈",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "spring-ring-expand",
+    "original": "Spring Expand",
+    "name": "彈簧擴張",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "watch-spinner",
+    "original": "Watch Spinner",
+    "name": "錶盤旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "gradient-arc",
+    "original": "Gradient Arc",
+    "name": "漸層圓弧",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "breathe-ring",
+    "original": "Breathe Ring",
+    "name": "呼吸圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "offset-rings",
+    "original": "Offset Rings",
+    "name": "錯位圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "dashed-spiral",
+    "original": "Dashed Spiral",
+    "name": "虛線螺旋",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "haptic-ring",
+    "original": "Haptic Ring",
+    "name": "觸感圓環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "bar-cascade",
+    "original": "Bar Cascade",
+    "name": "階梯長條",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "bouncing-bars",
+    "original": "Bouncing Bars",
+    "name": "跳動長條",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "symmetric-wave",
+    "original": "Symmetric Wave",
+    "name": "對稱波形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "bar-sweep",
+    "original": "Bar Sweep",
+    "name": "長條掃描",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "circular-bars",
+    "original": "Circular Bars",
+    "name": "環形長條",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "accordion-loader",
+    "original": "Accordion Loader",
+    "name": "手風琴載入",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "square-accordion",
+    "original": "Square Accordion",
+    "name": "方形手風琴",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "conveyor-loop",
+    "original": "Conveyor Loop",
+    "name": "輸送帶循環",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "bouncing-lines",
+    "original": "Bouncing Lines",
+    "name": "跳動線段",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "siri-wave",
+    "original": "Siri Wave",
+    "name": "語音波形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "apple-equalizer",
+    "original": "Apple EQ",
+    "name": "等化器律動",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "spring-bars",
+    "original": "Spring Bars",
+    "name": "彈簧長條",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "fluid-bars",
+    "original": "Fluid Bars",
+    "name": "流體長條",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "morphing-bars",
+    "original": "Morphing Bars",
+    "name": "變形長條",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "stacked-bar-pulse",
+    "original": "Stacked Pulse",
+    "name": "堆疊脈衝",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "waveform-loader",
+    "original": "Waveform",
+    "name": "連續波形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "elastic-bars",
+    "original": "Elastic Bars",
+    "name": "彈性長條",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "sliding-bars",
+    "original": "Sliding Bars",
+    "name": "滑動長條",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "apple-sound-wave",
+    "original": "Sound Wave",
+    "name": "聲音波紋",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "flip-square",
+    "original": "Flip Square",
+    "name": "翻轉方塊",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "morphing-shape",
+    "original": "Morphing Shape",
+    "name": "幾何變形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "newtons-cradle",
+    "original": "Newton's Cradle",
+    "name": "牛頓擺",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "spinning-squares",
+    "original": "Spinning Squares",
+    "name": "旋轉方塊組",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "expanding-cross",
+    "original": "Expanding Cross",
+    "name": "擴張十字",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "square-grid",
+    "original": "Square Grid",
+    "name": "方形網格",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "floating-diamonds",
+    "original": "Floating Diamonds",
+    "name": "漂浮菱形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "pulse-square",
+    "original": "Pulse Square",
+    "name": "脈動方塊",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "pendulum",
+    "original": "Pendulum",
+    "name": "鐘擺",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "hexagon-spinner",
+    "original": "Hexagon Spinner",
+    "name": "六角旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "wandering-cube",
+    "original": "Wandering Cube",
+    "name": "漫遊立方體",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "hourglass",
+    "original": "Hourglass",
+    "name": "沙漏",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "rotating-triangle",
+    "original": "Rotating Triangle",
+    "name": "旋轉三角",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "bouncing-square",
+    "original": "Bouncing Square",
+    "name": "彈跳方塊",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "breathing-square",
+    "original": "Breathing Square",
+    "name": "呼吸方塊",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "diamond-grid",
+    "original": "Diamond Grid",
+    "name": "菱形網格",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "square-snake",
+    "original": "Square Snake",
+    "name": "方塊蛇行",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "infinity-path",
+    "original": "Infinity Path",
+    "name": "無限路徑",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "morphing-infinity",
+    "original": "Morphing Infinity",
+    "name": "變形無限",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "zig-zag-pulse",
+    "original": "Zig Zag Pulse",
+    "name": "折線脈動",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "pumping-heart",
+    "original": "Pumping Heart",
+    "name": "跳動愛心",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "heartbeat",
+    "original": "Heartbeat",
+    "name": "心跳節奏",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "spiral-spinner",
+    "original": "Spiral Spinner",
+    "name": "螺旋旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "concentric-squares",
+    "original": "Concentric Squares",
+    "name": "同心方框",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "rotating-cross",
+    "original": "Rotating Cross",
+    "name": "旋轉十字",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "apple-icon-morph",
+    "original": "Icon Morph",
+    "name": "圖示變形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "smooth-rounded-square",
+    "original": "Smooth Square",
+    "name": "平滑方塊",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "cube-flip-spring",
+    "original": "Cube Flip",
+    "name": "立方翻轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "origami-shape",
+    "original": "Origami",
+    "name": "摺紙",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "diamond-rotate-spring",
+    "original": "Diamond Spin",
+    "name": "菱形旋轉",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "shape-shift-grid",
+    "original": "Shape Shift",
+    "name": "形狀切換",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "spring-hexagon",
+    "original": "Spring Hex",
+    "name": "彈簧六角",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "elastic-square",
+    "original": "Elastic Square",
+    "name": "彈性方形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "minimal-triangle",
+    "original": "Minimal Triangle",
+    "name": "極簡三角",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "fluid-diamond",
+    "original": "Fluid Diamond",
+    "name": "流體菱形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "text-shimmer",
+    "original": "Text Shimmer",
+    "name": "文字流光",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "text-blink",
+    "original": "Text Blink",
+    "name": "文字閃爍",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "text-dots",
+    "original": "Text Dots",
+    "name": "文字圓點",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "text-shimmer-wave",
+    "original": "Text Shimmer Wave",
+    "name": "文字波浪流光",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "typing-indicator",
+    "original": "Typing Indicator",
+    "name": "輸入指示器",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "typing",
+    "original": "Typing",
+    "name": "打字效果",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "shimmer-line",
+    "original": "Shimmer Line",
+    "name": "流光線段",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "skeleton-loader",
+    "original": "Skeleton",
+    "name": "骨架載入",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "terminal-loader",
+    "original": "Terminal",
+    "name": "終端機",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "apple-text-reveal",
+    "original": "Text Reveal",
+    "name": "文字揭幕",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "fluid-skeleton",
+    "original": "Fluid Skeleton",
+    "name": "流體骨架",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "spring-text-pop",
+    "original": "Spring Pop",
+    "name": "彈簧彈出",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "apple-unlock",
+    "original": "Apple Unlock",
+    "name": "滑動解鎖",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "glassmorphic-card",
+    "original": "Glass Card",
+    "name": "玻璃卡片",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "mac-terminal",
+    "original": "Mac Terminal",
+    "name": "終端機指令",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "dynamic-island",
+    "original": "Dynamic Island",
+    "name": "動態膠囊",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "app-icon-load",
+    "original": "App Icon",
+    "name": "應用程式圖示",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "text-morph",
+    "original": "Text Morph",
+    "name": "文字變形",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "face-id-scan",
+    "original": "Face ID",
+    "name": "臉部辨識",
+    "category": "loaders",
+    "categoryLabel": "載入動效",
+    "description": "用細緻的節奏陪伴等待，適合資料載入、進度回饋與空白狀態。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "txt-dia",
+    "original": "Dia Text Reveal",
+    "name": "斜向揭幕",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "dia-text-reveal"
+  },
+  {
+    "id": "txt-blur",
+    "original": "Blur Text",
+    "name": "模糊浮現",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "blur-text"
+  },
+  {
+    "id": "txt-shimmer",
+    "original": "Shimmer Text",
+    "name": "流光文字",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "shimmer-text"
+  },
+  {
+    "id": "txt-typewriter",
+    "original": "Typewriter Text",
+    "name": "打字機",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "typewriter-text"
+  },
+  {
+    "id": "txt-reveal",
+    "original": "Reveal Text",
+    "name": "遮罩揭幕",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "reveal-text"
+  },
+  {
+    "id": "txt-fade-char",
+    "original": "Fade In Char",
+    "name": "逐字淡入",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "fade-in-char"
+  },
+  {
+    "id": "txt-fade-word",
+    "original": "Fade In Word",
+    "name": "逐詞淡入",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "fade-in-word"
+  },
+  {
+    "id": "txt-fade-text",
+    "original": "Fade In Text",
+    "name": "整句淡入",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "fade-in-text"
+  },
+  {
+    "id": "txt-blurup-word",
+    "original": "Blur Up Word",
+    "name": "逐詞對焦",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "blur-up-word"
+  },
+  {
+    "id": "txt-blurup-char",
+    "original": "Blur Up Char",
+    "name": "逐字對焦",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "blur-up-char"
+  },
+  {
+    "id": "txt-stagger",
+    "original": "Stagger Text",
+    "name": "錯落浮現",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "stagger-text"
+  },
+  {
+    "id": "txt-slideup-char",
+    "original": "Slide Up Char",
+    "name": "逐字上滑",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "slide-up-char"
+  },
+  {
+    "id": "txt-slideup-word",
+    "original": "Slide Up Word",
+    "name": "逐詞上滑",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "slide-up-word"
+  },
+  {
+    "id": "txt-slideup-text",
+    "original": "Slide Up Text",
+    "name": "整句上滑",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "slide-up-text"
+  },
+  {
+    "id": "txt-slidedown-char",
+    "original": "Slide Down Char",
+    "name": "逐字下滑",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "slide-down-char"
+  },
+  {
+    "id": "txt-slidedown-word",
+    "original": "Slide Down Word",
+    "name": "逐詞下滑",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "slide-down-word"
+  },
+  {
+    "id": "txt-slideleft-char",
+    "original": "Slide Left Char",
+    "name": "逐字左滑",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "slide-left-char"
+  },
+  {
+    "id": "txt-slideright-char",
+    "original": "Slide Right Char",
+    "name": "逐字右滑",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "slide-right-char"
+  },
+  {
+    "id": "txt-dropin-char",
+    "original": "Drop In Char",
+    "name": "逐字落下",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "drop-in-char"
+  },
+  {
+    "id": "txt-riseup-word",
+    "original": "Rise Up Word",
+    "name": "逐詞升起",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "rise-up-word"
+  },
+  {
+    "id": "txt-bouncein-char",
+    "original": "Bounce In Char",
+    "name": "逐字彈入",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "bounce-in-char"
+  },
+  {
+    "id": "txt-scalein-char",
+    "original": "Scale In Char",
+    "name": "逐字放大",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "scale-in-char"
+  },
+  {
+    "id": "txt-scalein-word",
+    "original": "Scale In Word",
+    "name": "逐詞放大",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "scale-in-word"
+  },
+  {
+    "id": "txt-scalein-text",
+    "original": "Scale In Text",
+    "name": "整句放大",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "scale-in-text"
+  },
+  {
+    "id": "txt-zoomin-text",
+    "original": "Zoom In Text",
+    "name": "鏡頭推近",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "zoom-in-text"
+  },
+  {
+    "id": "txt-zoomout-text",
+    "original": "Zoom Out Text",
+    "name": "鏡頭拉遠",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "zoom-out-text"
+  },
+  {
+    "id": "txt-flipy-char",
+    "original": "Flip Y Char",
+    "name": "垂直翻字",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "flip-y-char"
+  },
+  {
+    "id": "txt-flipx-char",
+    "original": "Flip X Char",
+    "name": "水平翻字",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "flip-x-char"
+  },
+  {
+    "id": "txt-rotatein-char",
+    "original": "Rotate In Char",
+    "name": "旋轉入場",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "rotate-in-char"
+  },
+  {
+    "id": "txt-swing-word",
+    "original": "Swing Word",
+    "name": "詞語搖擺",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "swing-word"
+  },
+  {
+    "id": "txt-stretchx-char",
+    "original": "Stretch X Char",
+    "name": "水平拉伸",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "stretch-x-char"
+  },
+  {
+    "id": "txt-stretchy-char",
+    "original": "Stretch Y Char",
+    "name": "垂直拉伸",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "stretch-y-char"
+  },
+  {
+    "id": "txt-skewx-char",
+    "original": "Skew X Char",
+    "name": "斜切文字",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "skew-x-char"
+  },
+  {
+    "id": "txt-trackingin-text",
+    "original": "Tracking In Text",
+    "name": "字距收合",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "tracking-in-text"
+  },
+  {
+    "id": "txt-trackingout-text",
+    "original": "Tracking Out Text",
+    "name": "字距展開",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "tracking-out-text"
+  },
+  {
+    "id": "txt-spring-text",
+    "original": "Spring Text",
+    "name": "彈簧文字",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "spring-text"
+  },
+  {
+    "id": "txt-hoverlift-char",
+    "original": "Hover Lift Char",
+    "name": "逐字浮起",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "hover-lift-char"
+  },
+  {
+    "id": "txt-hoverlift-word",
+    "original": "Hover Lift Word",
+    "name": "逐詞浮起",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "hover-lift-word"
+  },
+  {
+    "id": "txt-hoverscale-char",
+    "original": "Hover Scale Char",
+    "name": "逐字縮放",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "hover-scale-char"
+  },
+  {
+    "id": "txt-hoverscale-word",
+    "original": "Hover Scale Word",
+    "name": "逐詞縮放",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "hover-scale-word"
+  },
+  {
+    "id": "txt-float-char",
+    "original": "Float Char",
+    "name": "逐字漂浮",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "float-char"
+  },
+  {
+    "id": "txt-float-word",
+    "original": "Float Word",
+    "name": "逐詞漂浮",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "float-word"
+  },
+  {
+    "id": "txt-pulse-char",
+    "original": "Pulse Char",
+    "name": "逐字脈動",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "pulse-char"
+  },
+  {
+    "id": "txt-pulse-word",
+    "original": "Pulse Word",
+    "name": "逐詞脈動",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "pulse-word"
+  },
+  {
+    "id": "txt-glow-text",
+    "original": "Glow Text",
+    "name": "文字光暈",
+    "category": "text",
+    "categoryLabel": "文字動態",
+    "description": "讓文字在恰好的時刻登場。點擊預覽可以重新播放。",
+    "interaction": "glow-text"
+  },
+  {
+    "id": "mono-activity-green",
+    "original": "Emerald Activity Heatmap",
+    "name": "森林綠活動熱圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "matrix"
+  },
+  {
+    "id": "mono-activity-blue",
+    "original": "Sky Blue Activity Heatmap",
+    "name": "天空藍活動熱圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "matrix"
+  },
+  {
+    "id": "mono-activity-purple",
+    "original": "Violet Activity Heatmap",
+    "name": "薰衣紫活動熱圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "matrix"
+  },
+  {
+    "id": "mono-rounded-line",
+    "original": "Mono Rounded Spline Line",
+    "name": "平滑折線圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "line"
+  },
+  {
+    "id": "mono-rounded-bar",
+    "original": "Mono Rounded Pill Pillars",
+    "name": "圓角長條圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "bar"
+  },
+  {
+    "id": "mono-rounded-area",
+    "original": "Mono Curved Wave Area",
+    "name": "波浪面積圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "area"
+  },
+  {
+    "id": "mono-rounded-donut",
+    "original": "Mono Rounded Donut Ring",
+    "name": "分段環形圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "donut"
+  },
+  {
+    "id": "mono-rounded-composed",
+    "original": "Mono Hybrid Spline + Bar",
+    "name": "折線長條混合圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "composed"
+  },
+  {
+    "id": "mono-rounded-scatter",
+    "original": "Mono Scatter Matrix",
+    "name": "散點矩陣",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "scatter"
+  },
+  {
+    "id": "mono-rounded-candlestick",
+    "original": "Mono Financial Candlesticks",
+    "name": "金融蠟燭圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "bar"
+  },
+  {
+    "id": "mono-rounded-kpi",
+    "original": "Mono Stat KPI Card",
+    "name": "指標趨勢卡",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "line"
+  },
+  {
+    "id": "mono-rounded-pyramid",
+    "original": "Mono Tier Pyramid Stack",
+    "name": "金字塔層級圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "bar"
+  },
+  {
+    "id": "mono-rounded-radial-group",
+    "original": "Mono Radial Bar Group",
+    "name": "多層進度環",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "radial"
+  },
+  {
+    "id": "mono-rounded-gauge-arc",
+    "original": "Mono Speedometer Gauge Arc",
+    "name": "半圓儀表",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "radial"
+  },
+  {
+    "id": "mono-rounded-bullet",
+    "original": "Mono Performance Bullet Target",
+    "name": "目標子彈圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "bar"
+  },
+  {
+    "id": "mono-rounded-sankey",
+    "original": "Mono Flow Sankey Channels",
+    "name": "流向桑基圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "matrix"
+  },
+  {
+    "id": "mono-rounded-step",
+    "original": "Mono Step Progression",
+    "name": "階梯進度圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "line"
+  },
+  {
+    "id": "mono-rounded-stacked-bar",
+    "original": "Mono Stacked Tones Bar",
+    "name": "堆疊長條圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "bar"
+  },
+  {
+    "id": "mono-rounded-radar",
+    "original": "Mono Polygon Web Radar",
+    "name": "多軸雷達圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "radial"
+  },
+  {
+    "id": "mono-rounded-radial-gauge",
+    "original": "Mono Concentric Radial Rings",
+    "name": "同心圓儀表",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "radial"
+  },
+  {
+    "id": "mono-rounded-funnel",
+    "original": "Mono Stage Funnel",
+    "name": "階段漏斗圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "bar"
+  },
+  {
+    "id": "mono-rounded-heatmap",
+    "original": "Mono Dot Matrix Heatmap",
+    "name": "點陣熱力圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "matrix"
+  },
+  {
+    "id": "mono-rounded-sparkline",
+    "original": "Mono Sparkline Telemetry",
+    "name": "迷你趨勢線",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "line"
+  },
+  {
+    "id": "mono-rounded-bubble",
+    "original": "Mono Bubble Clusters",
+    "name": "群組氣泡圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "scatter"
+  },
+  {
+    "id": "mono-rounded-treemap",
+    "original": "Mono Tile Treemap",
+    "name": "矩形樹狀圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "matrix"
+  },
+  {
+    "id": "mono-rounded-stream",
+    "original": "Mono Fluid Stream Wave",
+    "name": "流體堆疊面積圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "area"
+  },
+  {
+    "id": "mono-rounded-meter",
+    "original": "Mono Arc Meter Gauge",
+    "name": "弧形指標儀表",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "radial"
+  },
+  {
+    "id": "mono-rounded-waterfall",
+    "original": "Mono Waterfall Steps",
+    "name": "階梯瀑布圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "bar"
+  },
+  {
+    "id": "mono-rounded-polar",
+    "original": "Mono Polar Radial Pillars",
+    "name": "放射長條圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "radial"
+  },
+  {
+    "id": "mono-rounded-range",
+    "original": "Mono Range Band Area",
+    "name": "區間帶狀圖",
+    "category": "charts",
+    "categoryLabel": "數據圖表",
+    "description": "讓數據更容易閱讀，以圖形、層次與互動呈現資訊。",
+    "interaction": "area"
+  },
+  {
+    "id": "dither-donut",
+    "original": "Dither Donut Graph",
+    "name": "網點圓環圖",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "donut"
+  },
+  {
+    "id": "dither-stacked",
+    "original": "Dither Stacked Bar",
+    "name": "網點堆疊圖",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "bar"
+  },
+  {
+    "id": "dither-growth",
+    "original": "Dither Area Growth",
+    "name": "網點成長曲線",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "area"
+  },
+  {
+    "id": "dither-heatmap",
+    "original": "Activity Dither Heatmap",
+    "name": "網點活動熱圖",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "matrix"
+  },
+  {
+    "id": "dither-gauge",
+    "original": "Server CPU Gauge",
+    "name": "處理器儀表",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "radial"
+  },
+  {
+    "id": "dither-traffic",
+    "original": "Traffic Scatter Bubbles",
+    "name": "流量氣泡圖",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "scatter"
+  },
+  {
+    "id": "dither-funnel",
+    "original": "Conversion Funnel",
+    "name": "轉換漏斗圖",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "bar"
+  },
+  {
+    "id": "dither-device",
+    "original": "Device Usage Donut",
+    "name": "裝置佔比環圖",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "donut"
+  },
+  {
+    "id": "dither-storage",
+    "original": "Storage Capacity Bar",
+    "name": "儲存容量條",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "bar"
+  },
+  {
+    "id": "dither-revenue",
+    "original": "Revenue Spline Line",
+    "name": "營收趨勢線",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "line"
+  },
+  {
+    "id": "dither-uptime",
+    "original": "System Uptime Matrix",
+    "name": "系統運作矩陣",
+    "category": "dither",
+    "categoryLabel": "網點圖表",
+    "description": "為數據加入細緻網點紋理，適合具有個性的儀表板與作品展示。",
+    "interaction": "matrix"
+  },
+  {
+    "id": "dock",
+    "original": "Physics Spring Dock",
+    "name": "彈簧工具列",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "all"
+  },
+  {
+    "id": "anim-card-peel",
+    "original": "Card Stack Peel",
+    "name": "卡片層疊翻頁",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-bookmark-corner",
+    "original": "Corner Dog-Ear Peel",
+    "name": "書角翻折",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-elastic-tag",
+    "original": "Elastic Tag Snap",
+    "name": "彈性吊牌",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-split-gate",
+    "original": "Split Gate Reveal",
+    "name": "雙門揭幕",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-shutter-slide",
+    "original": "Horizontal Shutter Slide",
+    "name": "水平百葉窗",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-origami-envelope",
+    "original": "Origami Envelope Unfold",
+    "name": "摺紙信封",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-card-dispenser",
+    "original": "Smart Card Dispenser",
+    "name": "智慧發卡機",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-sticky-note",
+    "original": "Sticky Note Peel",
+    "name": "便利貼撕角",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-receipt-tape",
+    "original": "Receipt Ticker Print",
+    "name": "收據列印",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-circuit-trace",
+    "original": "Circuit Trace Draw",
+    "name": "電路描線",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-hex-lattice",
+    "original": "Hexagon Lattice Draw",
+    "name": "六角網格描線",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-stroke-waveform",
+    "original": "Waveform Pulse Line",
+    "name": "脈衝波形線",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-prism-stack",
+    "original": "Prism Block Stack",
+    "name": "稜柱積木",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-modular-tile",
+    "original": "Modular Tile Snap",
+    "name": "磁吸拼磚",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-pyramid-build",
+    "original": "Pyramid Block Build",
+    "name": "金字塔積木",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-roller-blind",
+    "original": "Roller Blind Drop",
+    "name": "捲簾落下",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-scroll-canvas",
+    "original": "Scroll Canvas Unroll",
+    "name": "畫布捲軸",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-ribbon-banner",
+    "original": "Ribbon Banner Slide",
+    "name": "緞帶滑入",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-tension-capsule",
+    "original": "Kinetic Tension Capsule",
+    "name": "張力膠囊",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-droplet-squish",
+    "original": "Liquid Droplet Squish",
+    "name": "液滴擠壓",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-segmented-link",
+    "original": "Segmented Link Stretch",
+    "name": "鏈節拉伸",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-blind-pull",
+    "original": "Accordion Blind Pull",
+    "name": "手風琴捲簾",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-rotating-louvers",
+    "original": "Rotating Louver Slats",
+    "name": "旋轉百葉",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-iris-shutter",
+    "original": "Geometric Iris Shutter",
+    "name": "幾何光圈",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-bubble-level",
+    "original": "Pendulum Bubble Level",
+    "name": "氣泡水平儀",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-kinetic-metronome",
+    "original": "Kinetic Metronome Tick",
+    "name": "動態節拍器",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-orbital-gimbal",
+    "original": "Nested Orbital Gimbal",
+    "name": "巢狀萬向環",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-gelatin-wobble",
+    "original": "Gelatin Cube Wobble",
+    "name": "果凍立方體",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-slinky-coil",
+    "original": "Slinky Coil Spring",
+    "name": "彈簧線圈",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-squash-sphere",
+    "original": "Squash & Stretch Sphere",
+    "name": "彈性球體",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-domino-chain",
+    "original": "Domino Cascade Fall",
+    "name": "骨牌連鎖",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-card-cascade",
+    "original": "Card Deck Fan Cascade",
+    "name": "扇形卡片串",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-gear-step",
+    "original": "Interlocking Gear Step",
+    "name": "齒輪咬合",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-magnetic-disks",
+    "original": "Magnetic Snap Disks",
+    "name": "磁吸圓盤",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-dual-magnet",
+    "original": "Dual Magnet Dipole",
+    "name": "雙極磁場",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-compass-deflect",
+    "original": "Compass Needle Deflect",
+    "name": "指南針偏轉",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-sudden-brake",
+    "original": "Sudden Brake Skid",
+    "name": "急煞滑行",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-rolling-tumble",
+    "original": "Rolling Tumble Physics",
+    "name": "翻滾物理",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-inertia-skid",
+    "original": "Inertia Skid Stop",
+    "name": "慣性滑停",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-neon-sign",
+    "original": "Neon Sign Draw & Clear",
+    "name": "霓虹描線",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-page-turn",
+    "original": "Page Turn Curl",
+    "name": "紙張翻頁",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-shutter-blocks",
+    "original": "Shutter Step Slices",
+    "name": "階梯百葉",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "whimsical"
+  },
+  {
+    "id": "anim-matrix-loader",
+    "original": "Matrix Grid Loader",
+    "name": "矩陣載入",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "anim-apple-spinner",
+    "original": "Radial System Spinner",
+    "name": "放射載入",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "anim-pulse-dots",
+    "original": "Pulse Orbit Dots",
+    "name": "軌道脈動",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "loaders"
+  },
+  {
+    "id": "yui-category-select",
+    "original": "Category Dropdown",
+    "name": "分類選單",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-filter-tag-pill",
+    "original": "Floating Filter Tag Pill",
+    "name": "浮動篩選標籤",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-submenu-flyout",
+    "original": "Submenu Flyout Panel",
+    "name": "側展子選單",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-hover-link",
+    "original": "Hover Link Card",
+    "name": "懸浮連結卡",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-magnetic-icon-btn",
+    "original": "Magnetic Slide Button",
+    "name": "磁吸滑動按鈕",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-morph-action-pill",
+    "original": "Morph Action Expand Pill",
+    "name": "變形操作膠囊",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-plus-minus-toggle",
+    "original": "Plus / Minus Toggle",
+    "name": "加減切換",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-light-dark-toggle",
+    "original": "Light / Dark Mode Toggle",
+    "name": "日夜切換",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-ab-tabs",
+    "original": "A / B Segmented Tabs",
+    "name": "分段頁籤",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-progress-stepper",
+    "original": "Progress Stepper",
+    "name": "步驟進度",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-segmented-arc-meter",
+    "original": "Segmented Arc Meter",
+    "name": "分段弧形儀表",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-segmented-step-bar",
+    "original": "Segmented Step Bar",
+    "name": "分段步驟條",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-multi-tab-close",
+    "original": "Tab Bar with Close",
+    "name": "可關閉頁籤",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-date-position",
+    "original": "Date Position Selector",
+    "name": "日期選取器",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-stepper-dots",
+    "original": "Segmented Stepper Dots",
+    "name": "步驟圓點",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-context-menu",
+    "original": "Actions Context Menu",
+    "name": "快捷操作選單",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-glance-preview",
+    "original": "Card Glance Preview",
+    "name": "卡片快速預覽",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-download-icons",
+    "original": "Download Progress Icons",
+    "name": "下載進度圖示",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-wheel-counter",
+    "original": "Vertical Wheel Counter",
+    "name": "垂直滾輪計數",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-perspective-layout",
+    "original": "Perspective Layout Switcher",
+    "name": "透視版型切換",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "yui-save-pill",
+    "original": "Bookmark Save Pill",
+    "name": "書籤收藏膠囊",
+    "category": "lab",
+    "categoryLabel": "互動實驗",
+    "description": "探索更有趣的介面回饋。移入或點擊預覽，體驗動態細節。",
+    "interaction": "ui-kit"
+  },
+  {
+    "id": "dither-book",
+    "original": "Dither Book",
+    "name": "立體翻頁手冊",
+    "category": "cards",
+    "categoryLabel": "卡片與輪播",
+    "description": "翻動紙張，試試立體書頁的光影與空間層次。",
+    "interaction": "3d"
+  }
+]

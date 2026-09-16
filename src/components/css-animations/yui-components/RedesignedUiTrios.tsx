@@ -79,7 +79,7 @@ export function CardGlancePreview({ theme = 'dark' }: { theme?: 'dark' | 'light'
             }`}
           >
             <div className="w-2 h-2 rounded-full bg-blue-500" />
-            <span>Interactive Glance Preview</span>
+            <span>互動卡片預覽</span>
           </motion.div>
         )}
       </AnimatePresence>
@@ -164,7 +164,7 @@ export function PerspectiveLayoutSwitcher({ theme = 'dark' }: { theme?: 'dark' |
       >
         {layout === 'grid' ? <LayoutGrid className="w-4 h-4 text-blue-500" /> : <Layers className="w-4 h-4 text-blue-500" />}
       </motion.div>
-      <span>{layout === 'grid' ? 'Grid View' : 'Stack View'}</span>
+      <span>{layout === 'grid' ? "網格檢視" : "堆疊檢視"}</span>
     </motion.button>
   );
 }
@@ -187,7 +187,7 @@ export function BookmarkSavePill({ theme = 'dark' }: { theme?: 'dark' | 'light' 
       }`}
     >
       {saved ? <Check className="w-3.5 h-3.5 text-white" /> : <Bookmark className="w-3.5 h-3.5 text-blue-400" />}
-      <span>{saved ? 'Saved' : 'Save Item'}</span>
+      <span>{saved ? "已收藏" : "收藏項目"}</span>
     </motion.button>
   );
 }

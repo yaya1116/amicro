@@ -42,14 +42,14 @@ export function MonoRoundedCandlestickChart({ theme = 'dark', compact = false }:
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Financial Wicks
+              價格走勢
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Candlestick
+              蠟燭圖
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            175.00 <span className="text-xs font-normal opacity-70">close price</span>
+            175.00 <span className="text-xs font-normal opacity-70">收盤價</span>
           </div>
         </div>
       </div>
@@ -100,8 +100,8 @@ export function MonoRoundedCandlestickChart({ theme = 'dark', compact = false }:
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Wick Endcaps</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>5 Price Candles</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓角影線</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>5 組價格</span>
       </div>
     </div>
   );

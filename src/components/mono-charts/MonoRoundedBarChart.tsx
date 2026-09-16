@@ -18,12 +18,12 @@ interface BarPoint {
 }
 
 const MONO_BAR_DATA: BarPoint[] = [
-  { label: 'Mon', primary: 45, secondary: 25 },
-  { label: 'Tue', primary: 78, secondary: 40 },
-  { label: 'Wed', primary: 62, secondary: 30 },
-  { label: 'Thu', primary: 95, secondary: 55 },
-  { label: 'Fri', primary: 88, secondary: 50 },
-  { label: 'Sat', primary: 54, secondary: 28 },
+  { label: "週一", primary: 45, secondary: 25 },
+  { label: "週二", primary: 78, secondary: 40 },
+  { label: "週三", primary: 62, secondary: 30 },
+  { label: "週四", primary: 95, secondary: 55 },
+  { label: "週五", primary: 88, secondary: 50 },
+  { label: "週六", primary: 54, secondary: 28 },
 ];
 
 interface MonoRoundedBarChartProps {
@@ -53,14 +53,14 @@ export function MonoRoundedBarChart({ theme = 'dark', compact = false }: MonoRou
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Mono Pill Pillars
+              圓角長條
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Full Radius
+              完整圓角
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            422 <span className="text-xs font-normal opacity-70">units built</span>
+            422 <span className="text-xs font-normal opacity-70">單位</span>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ export function MonoRoundedBarChart({ theme = 'dark', compact = false }: MonoRou
                   : 'text-neutral-600 hover:text-black'
               }`}
             >
-              {l === 'vertical' ? 'Col' : 'Row'}
+              {l === 'vertical' ? "直欄" : "橫列"}
             </button>
           ))}
         </div>
@@ -145,10 +145,10 @@ export function MonoRoundedBarChart({ theme = 'dark', compact = false }: MonoRou
       {/* Footer Details */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
         <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>
-          Corner Radius: 8px All
+          圓角半徑：8px
         </span>
         <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>
-          Monochrome Fill
+          單色填色
         </span>
       </div>
     </div>

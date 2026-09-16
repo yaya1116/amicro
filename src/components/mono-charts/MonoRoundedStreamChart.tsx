@@ -48,14 +48,14 @@ export function MonoRoundedStreamChart({ theme = 'dark', compact = false }: Mono
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Stream Wave
+              流體波形
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Fluid
+              流體
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            125 <span className="text-xs font-normal opacity-70">peak flow</span>
+            125 <span className="text-xs font-normal opacity-70">尖峰流量</span>
           </div>
         </div>
       </div>
@@ -109,8 +109,8 @@ export function MonoRoundedStreamChart({ theme = 'dark', compact = false }: Mono
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Natural Spline</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Dual Stream Wave</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>自然平滑曲線</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>雙組波形</span>
       </div>
     </div>
   );

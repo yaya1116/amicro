@@ -4,8 +4,8 @@ import { Activity } from 'lucide-react';
 import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 const PERIODS = [
-  { name: 'Last 3 Months', weeks: 12 },
-  { name: 'Last 6 Months', weeks: 24 },
+  { name: "近三個月", weeks: 12 },
+  { name: "近六個月", weeks: 24 },
 ];
 
 const smoothstep = (min: number, max: number, value: number) => {
@@ -149,7 +149,7 @@ export function ActivityHeatmap({ theme = 'dark', compact = false }: { theme?: '
         {!compact && (
           <div className="flex items-center justify-between w-full px-2">
             <span className={`text-xs font-semibold ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
-              <AnimatedNumber value={total} /> contributions
+              <AnimatedNumber value={total} /> 次活動
             </span>
           </div>
         )}

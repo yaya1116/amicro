@@ -53,14 +53,14 @@ export function MonoRoundedAreaChart({ theme = 'dark', compact = false }: MonoRo
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Mono Curved Wave
+              平滑面積曲線
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Soft Gradient
+              柔和漸層
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            {latestVal}% <span className="text-xs font-normal opacity-70">peak throughput</span>
+            {latestVal}% <span className="text-xs font-normal opacity-70">尖峰流量</span>
           </div>
         </div>
 
@@ -133,10 +133,10 @@ export function MonoRoundedAreaChart({ theme = 'dark', compact = false }: MonoRo
       {/* Footer Metrics */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
         <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>
-          Minimalist Spline Shading
+          曲線漸層填色
         </span>
         <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>
-          99.9% Linear Flow
+          99.9% 流暢度
         </span>
       </div>
     </div>

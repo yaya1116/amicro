@@ -8,10 +8,10 @@ interface GroupPoint {
 }
 
 const RADIAL_GROUP_DATA: GroupPoint[] = [
-  { name: 'System', val: 85 },
-  { name: 'Network', val: 62 },
-  { name: 'Storage', val: 45 },
-  { name: 'Memory', val: 30 },
+  { name: "系統", val: 85 },
+  { name: "網路", val: 62 },
+  { name: "儲存", val: 45 },
+  { name: "記憶體", val: 30 },
 ];
 
 interface MonoRoundedRadialBarGroupProps {
@@ -37,14 +37,14 @@ export function MonoRoundedRadialBarGroup({ theme = 'dark', compact = false }: M
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Radial Group
+              多層進度環
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Multi-Arc
+              多重圓弧
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            4 Rings <span className="text-xs font-normal opacity-70">active</span>
+            4 組圓環 <span className="text-xs font-normal opacity-70">運作中</span>
           </div>
         </div>
       </div>
@@ -85,8 +85,8 @@ export function MonoRoundedRadialBarGroup({ theme = 'dark', compact = false }: M
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded 180° Radial Caps</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>4 Gauge Arcs</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>180° 圓角弧形</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>4 組儀表弧</span>
       </div>
     </div>
   );

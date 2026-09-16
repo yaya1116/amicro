@@ -7,7 +7,7 @@ export const AppleTextReveal = () => (
       animate={{ y: ["100%", "0%", "-100%"] }}
       transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
     >
-      Loading
+      載入中
     </motion.div>
   </div>
 );

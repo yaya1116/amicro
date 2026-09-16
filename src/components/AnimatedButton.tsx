@@ -207,7 +207,7 @@ export const AnimatedButton = React.memo(function AnimatedButton({ config, layou
               </AnimatePresence>
             </div>
             {!isMatrix && <motion.span layout className="font-medium tracking-tight text-[13px] whitespace-nowrap ml-2.5">
-              {config.id === '4' && showIcon2 ? 'Copied' : config.label}
+              {config.id === '4' && showIcon2 ? "已複製" : config.label}
             </motion.span>}
           </>
         );

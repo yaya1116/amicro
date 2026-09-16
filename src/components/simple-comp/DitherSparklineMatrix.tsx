@@ -13,7 +13,7 @@ export function DitherSparklineMatrix({ theme = 'dark', compact = false }: { the
   const [activeMetric, setActiveMetric] = useState<number | null>(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
 
   const current = METRICS[activeMetric ?? 0];
 

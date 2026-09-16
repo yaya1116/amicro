@@ -38,7 +38,7 @@ export const CardCornerFan = React.memo(function CardCornerFan({
         const targetRotate = active ? (startAngle + offsetRatio * angle) * hoverIntensity : 0;
 
         const springConfig = {
-          type: "spring",
+          type: "spring" as const,
           stiffness: 180,
           damping: 20,
           mass: 0.8

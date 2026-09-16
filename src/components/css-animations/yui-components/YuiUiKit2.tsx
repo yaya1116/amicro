@@ -18,7 +18,7 @@ export function ContextMenuEditDelete({ theme = 'dark' }: { theme?: 'dark' | 'li
           theme === 'dark' ? 'bg-[#181818] border-neutral-700 text-white' : 'bg-white border-neutral-200 text-neutral-900'
         }`}
       >
-        Actions Menu
+        操作選單
       </motion.button>
 
       <AnimatePresence>
@@ -39,14 +39,14 @@ export function ContextMenuEditDelete({ theme = 'dark' }: { theme?: 'dark' | 'li
               }`}
             >
               <Edit3 className="w-3.5 h-3.5" />
-              <span>Edit</span>
+              <span>編輯</span>
             </button>
             <button
               onClick={() => setIsOpen(false)}
               className="flex items-center gap-2 w-full text-left px-3 py-2 rounded-xl text-xs font-medium text-rose-500 hover:bg-rose-500/10 cursor-pointer border-0"
             >
               <Trash2 className="w-3.5 h-3.5" />
-              <span>Delete</span>
+              <span>刪除</span>
             </button>
           </motion.div>
         )}
@@ -72,7 +72,7 @@ export function QuestionTooltip({ theme = 'dark' }: { theme?: 'dark' | 'light' }
               theme === 'dark' ? 'bg-[#222] border-neutral-700 text-neutral-200' : 'bg-neutral-900 border-neutral-800 text-white'
             }`}
           >
-            Helpful tooltip preview text
+            這裡是操作提示的預覽文字
             <div className={`absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 rotate-45 border-r border-b ${
               theme === 'dark' ? 'bg-[#222] border-neutral-700' : 'bg-neutral-900 border-neutral-800'
             }`} />
@@ -295,7 +295,7 @@ export function ListColumnToggle({ theme = 'dark' }: { theme?: 'dark' | 'light' 
       >
         {view === 'grid' ? <Grid className="w-4 h-4 text-[#0a84ff]" /> : <List className="w-4 h-4 text-[#0a84ff]" />}
       </motion.div>
-      <span>{view === 'grid' ? 'Grid View' : 'List View'}</span>
+      <span>{view === 'grid' ? "網格檢視" : "清單檢視"}</span>
     </motion.button>
   );
 }
@@ -316,7 +316,7 @@ export function FollowCheckButton({ theme = 'dark' }: { theme?: 'dark' | 'light'
       }`}
     >
       {following ? <Check className="w-3.5 h-3.5 text-[#0a84ff]" /> : <Plus className="w-3.5 h-3.5" />}
-      <span>{following ? 'Following' : '+ Follow'}</span>
+      <span>{following ? "已追蹤" : '+ Follow'}</span>
     </motion.button>
   );
 }

@@ -148,7 +148,7 @@ export function PaymentsChart() {
 
   // Canvas Refs & State
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   const drawnRef = useRef<Map<string, number>>(new Map());
   const morphStartTimeRef = useRef(0);
   const fromStateRef = useRef<Map<string, number>>(new Map());

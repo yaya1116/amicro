@@ -19,10 +19,10 @@ interface StackedPoint {
 }
 
 const STACKED_DATA: StackedPoint[] = [
-  { label: 'Q1', layer1: 30, layer2: 25, layer3: 20 },
-  { label: 'Q2', layer1: 45, layer2: 35, layer3: 25 },
-  { label: 'Q3', layer1: 60, layer2: 40, layer3: 30 },
-  { label: 'Q4', layer1: 75, layer2: 50, layer3: 35 },
+  { label: "第一季", layer1: 30, layer2: 25, layer3: 20 },
+  { label: "第二季", layer1: 45, layer2: 35, layer3: 25 },
+  { label: "第三季", layer1: 60, layer2: 40, layer3: 30 },
+  { label: "第四季", layer1: 75, layer2: 50, layer3: 35 },
 ];
 
 interface MonoRoundedStackedBarChartProps {
@@ -49,14 +49,14 @@ export function MonoRoundedStackedBarChart({ theme = 'dark', compact = false }: 
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Stacked Tones
+              堆疊層次
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Layers
+              圖層
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            160 <span className="text-xs font-normal opacity-70">cumulative</span>
+            160 <span className="text-xs font-normal opacity-70">累計</span>
           </div>
         </div>
       </div>
@@ -80,8 +80,8 @@ export function MonoRoundedStackedBarChart({ theme = 'dark', compact = false }: 
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>3 Monochrome Layers</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Stacked Geometry</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>3 組單色圖層</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>堆疊結構</span>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ export function DitherHeatmapGrid({ theme = 'dark', compact = false }: { theme?:
   const [hoveredCell, setHoveredCell] = useState<{ day: number; hour: number } | null>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
 
   const matrixData = useMemo(() => {
     return DAYS.map((_, d) => 

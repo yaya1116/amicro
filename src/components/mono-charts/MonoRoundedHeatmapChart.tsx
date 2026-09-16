@@ -36,14 +36,14 @@ export function MonoRoundedHeatmapChart({ theme = 'dark', compact = false }: Mon
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Matrix Heatmap
+              矩陣熱力圖
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Activity
+              活動
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            35 Nodes <span className="text-xs font-normal opacity-70">mapped</span>
+            35 個節點 <span className="text-xs font-normal opacity-70">已映射</span>
           </div>
         </div>
       </div>
@@ -78,8 +78,8 @@ export function MonoRoundedHeatmapChart({ theme = 'dark', compact = false }: Mon
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Node Cells</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>7x5 Density Grid</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓角節點</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>7 × 5 密度網格</span>
       </div>
     </div>
   );

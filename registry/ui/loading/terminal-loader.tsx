@@ -6,7 +6,7 @@ export const TerminalLoader = () => {
     <div className="bg-zinc-900 dark:bg-white text-zinc-100 font-mono text-[10px] p-3 rounded-md w-full h-16 flex flex-col justify-end overflow-hidden shadow-sm">
       <div className="flex text-zinc-500 dark:text-zinc-300 mb-1 leading-none">
         <span>$</span>
-        <span className="ml-2">loading...</span>
+        <span className="ml-2">載入中…</span>
       </div>
       <div className="flex items-center leading-none">
         <span className="text-emerald-400">&gt;</span>

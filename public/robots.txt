@@ -1,6 +1,2 @@
-# Robots.txt for Amicro (https://amicro.vercel.app)
 User-agent: *
 Allow: /
-
-# Sitemap Reference
-Sitemap: https://amicro.vercel.app/sitemap.xml

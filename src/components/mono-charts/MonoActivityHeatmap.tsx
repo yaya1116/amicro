@@ -124,14 +124,14 @@ export function MonoActivityHeatmap({
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Activity Heatmap
+              活動熱力圖
             </span>
             <span className={cn('inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono border', colorScale.badgeClass)}>
               {colorScale.badgeText}
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            {totalContributions} <span className="text-xs font-normal opacity-70">contributions</span>
+            {totalContributions} <span className="text-xs font-normal opacity-70">次活動</span>
           </div>
         </div>
       </div>
@@ -178,11 +178,11 @@ export function MonoActivityHeatmap({
         <div className="h-5 mt-2 flex items-center justify-center">
           {hoveredDay ? (
             <span className={`text-[10px] font-mono ${isDark ? 'text-neutral-300' : 'text-neutral-700'}`}>
-              {hoveredDay.count} {hoveredDay.count === 1 ? 'item' : 'items'} on {hoveredDay.date}
+              {hoveredDay.count} {hoveredDay.count === 1 ? "個項目" : "個項目"} 於 {hoveredDay.date}
             </span>
           ) : (
             <span className={`text-[10px] font-mono ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Hover tiles for metrics
+              移入方格查看數據
             </span>
           )}
         </div>
@@ -191,10 +191,10 @@ export function MonoActivityHeatmap({
       {/* Footer Details */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
         <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>
-          20 Weeks x 7 Days Grid
+          20 週 × 7 天
         </span>
         <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>
-          Subhan Activity
+          創作活動
         </span>
       </div>
     </div>

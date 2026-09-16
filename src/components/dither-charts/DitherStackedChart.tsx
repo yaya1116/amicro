@@ -4,17 +4,17 @@ import { CreditCard, DollarSign } from 'lucide-react';
 import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 const PERIODS = [
-  { name: 'Week', mult: 1 },
-  { name: 'Month', mult: 4 },
-  { name: 'Quarter', mult: 13 },
-  { name: 'Year', mult: 52 },
+  { name: "週", mult: 1 },
+  { name: "月", mult: 4 },
+  { name: "季", mult: 13 },
+  { name: "年", mult: 52 },
 ];
 
 const BRANCHES = ['Bishkek', 'Osh', 'Jalal-Abad', 'Karakol'];
 const BANDS = [
-  { name: 'Cash', color: '#FFFFFF', share: 0.46 },
+  { name: "現金", color: '#FFFFFF', share: 0.46 },
   { name: 'QR', color: '#CBD5E1', share: 0.31 },
-  { name: 'Bank', color: '#94A3B8', share: 0.23 },
+  { name: "銀行", color: '#94A3B8', share: 0.23 },
 ];
 
 const BASE_TOTAL = 150000;
@@ -119,7 +119,7 @@ export function DitherStackedChart({ theme = 'dark', compact = false }: DitherSt
   }, [periodIndex]);
 
   const timeRef = useRef(0);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   const drawnRef = useRef<Map<string, number>>(new Map());
   const morphStartTimeRef = useRef(0);
   const fromStateRef = useRef<Map<string, number>>(new Map());
@@ -268,10 +268,10 @@ export function DitherStackedChart({ theme = 'dark', compact = false }: DitherSt
               <span className="text-2xl font-bold tracking-tight">
                 <AnimatedDollar value={totalValue} />
               </span>
-              <span className={`text-xs ${theme === 'dark' ? 'text-neutral-400' : 'text-neutral-500'}`}>total revenue</span>
+              <span className={`text-xs ${theme === 'dark' ? 'text-neutral-400' : 'text-neutral-500'}`}>總營收</span>
             </div>
             <p className={`text-xs ${theme === 'dark' ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Stacked payment channels per regional branch
+              各區域付款管道分佈
             </p>
           </div>
         </div>

@@ -4,9 +4,9 @@ import { Server } from 'lucide-react';
 import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 const METRICS = [
-  { name: 'CPU Load', base: 65, color: '#FFFFFF' },
-  { name: 'Memory', base: 82, color: '#E2E8F0' },
-  { name: 'Network', base: 45, color: '#CBD5E1' },
+  { name: "處理器負載", base: 65, color: '#FFFFFF' },
+  { name: "記憶體", base: 82, color: '#E2E8F0' },
+  { name: "網路", base: 45, color: '#CBD5E1' },
 ];
 
 const smoothstep = (min: number, max: number, value: number) => {

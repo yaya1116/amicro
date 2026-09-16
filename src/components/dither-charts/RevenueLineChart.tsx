@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 const REVENUE_DATA = [
-  { name: 'This Week', total: 12450, data: [1200, 1500, 1100, 1800, 2200, 2900, 1750] },
-  { name: 'Last Week', total: 9800, data: [900, 1100, 800, 1300, 1600, 2100, 2000] },
+  { name: "本週", total: 12450, data: [1200, 1500, 1100, 1800, 2200, 2900, 1750] },
+  { name: "上週", total: 9800, data: [900, 1100, 800, 1300, 1600, 2100, 2000] },
 ];
 
 const smoothstep = (min: number, max: number, value: number) => {

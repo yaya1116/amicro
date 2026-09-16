@@ -45,14 +45,14 @@ export function MonoRoundedWaterfallChart({ theme = 'dark', compact = false }: M
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Waterfall Steps
+              階梯瀑布
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Delta
+              變化量
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            +80 <span className="text-xs font-normal opacity-70">net delta</span>
+            +80 <span className="text-xs font-normal opacity-70">淨變化</span>
           </div>
         </div>
       </div>
@@ -82,8 +82,8 @@ export function MonoRoundedWaterfallChart({ theme = 'dark', compact = false }: M
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded Floating Pillars</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Sequential Deltas</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>圓角浮動長條</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>逐步變化</span>
       </div>
     </div>
   );

@@ -11,8 +11,8 @@ export function MonoRoundedGaugeArc({ theme = 'dark', compact = false }: MonoRou
   const val = 84;
 
   const data = [
-    { name: 'Active', value: val },
-    { name: 'Remaining', value: 100 - val },
+    { name: "使用中", value: val },
+    { name: "剩餘", value: 100 - val },
   ];
 
   return (
@@ -30,14 +30,14 @@ export function MonoRoundedGaugeArc({ theme = 'dark', compact = false }: MonoRou
         <div>
           <div className="flex items-center gap-2">
             <span className={`text-xs font-semibold tracking-wider uppercase ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
-              Speedometer Arc
+              半圓儀表
             </span>
             <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-white/10 text-white border border-white/20">
-              Gauge
+              儀表
             </span>
           </div>
           <div className="text-xl font-bold tracking-tight tabular-nums mt-0.5 font-sans">
-            84% <span className="text-xs font-normal opacity-70">performance index</span>
+            84% <span className="text-xs font-normal opacity-70">效能指數</span>
           </div>
         </div>
       </div>
@@ -69,14 +69,14 @@ export function MonoRoundedGaugeArc({ theme = 'dark', compact = false }: MonoRou
 
         <div className="absolute bottom-4 flex flex-col items-center pointer-events-none">
           <span className="text-xl font-extrabold tabular-nums font-sans">84.0</span>
-          <span className={`text-[10px] font-mono ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>Target Met</span>
+          <span className={`text-[10px] font-mono ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>達成目標</span>
         </div>
       </div>
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-3 pt-1 border-t border-white/5 text-[11px] font-mono">
-        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>Rounded 240° Arc Dial</span>
-        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>Peak Gauge</span>
+        <span className={isDark ? 'text-neutral-400' : 'text-neutral-600'}>240° 圓角錶盤</span>
+        <span className={isDark ? 'text-white font-medium' : 'text-black font-medium'}>尖峰指標</span>
       </div>
     </div>
   );

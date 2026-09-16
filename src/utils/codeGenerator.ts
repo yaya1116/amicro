@@ -2,7 +2,7 @@ import { ButtonConfig } from '../data/buttons';
 
 export function getComponentCode(button: ButtonConfig): string {
   const icon1Name = typeof button.icon1 === 'string' ? 'AppleIcon' : (button.icon1.name || button.icon1.displayName || 'Icon');
-  const icon2Name = button.icon2 ? (button.icon2.name || button.icon2.displayName || 'Icon') : 'Icon';
+  const icon2Name = button.icon2 && typeof button.icon2 !== 'string' ? (button.icon2.name || button.icon2.displayName || 'Icon') : 'Icon';
 
   switch (button.interactionType) {
     case 'slide-arrow':

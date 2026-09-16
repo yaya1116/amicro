@@ -36,7 +36,7 @@ export const CardLinearSpread = React.memo(function CardLinearSpread({
         const targetX = active ? dist * (gap / center) * hoverIntensity : 0;
 
         const springConfig = {
-          type: "spring",
+          type: "spring" as const,
           stiffness: 180,
           damping: 20,
           mass: 0.8

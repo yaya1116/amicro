@@ -3,9 +3,9 @@ import { useSpring } from 'motion/react';
 import { useCanvasSetup } from '../../hooks/useCanvasSetup';
 
 const STORAGE_VIEWS = [
-  { name: 'Database', total: 500, used: 340, color: '#FFFFFF' },
-  { name: 'Assets', total: 1000, used: 850, color: '#E2E8F0' },
-  { name: 'Backups', total: 2000, used: 450, color: '#CBD5E1' },
+  { name: "資料庫", total: 500, used: 340, color: '#FFFFFF' },
+  { name: "資源", total: 1000, used: 850, color: '#E2E8F0' },
+  { name: "備份", total: 2000, used: 450, color: '#CBD5E1' },
 ];
 
 const smoothstep = (min: number, max: number, value: number) => {
