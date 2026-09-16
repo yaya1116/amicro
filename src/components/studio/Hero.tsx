@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
-import { ArrowDown, ArrowUpRight, MousePointer2 } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Check, MousePointer2 } from 'lucide-react';
 
-export function Hero({ browse }: { browse: () => void }) {
+export function Hero({ browse, pricing }: { browse: () => void; pricing: () => void }) {
   const [liked, setLiked] = useState(false);
   const reduced = useReducedMotion();
   return <section className="hero">
     <div className="hero-copy">
       <div className="eyebrow"><span className="live-dot" /> 給靈感一點推力</div>
       <h1>把靈感，<br />變成<span>互動。</span><i className="heading-star">✳</i></h1>
-      <p>為每一次點擊，設計剛剛好的回應。<br />探索、試玩、複製，把喜歡的動效帶進你的作品。</p>
-      <button className="button button-black" onClick={browse}>探索元件庫 <ArrowDown size={17} /></button>
-      <div className="hero-footnote"><span>React</span><i /><span>Motion</span><i /><span>繁體中文說明</span></div>
+      <p>少花時間從零開始，多留一點時間做好作品。<br />先免費試玩 332 個動效，再決定要不要帶走即用包。</p>
+      <div className="hero-actions"><button className="button button-black" onClick={browse}>先免費試玩 <ArrowDown size={17} /></button><button className="hero-price-link" onClick={pricing}>看 NT$99 即用包 <ArrowUpRight size={15} /></button></div>
+      <div className="hero-footnote"><span><Check size={11} />免登入</span><i /><span>React + Motion</span><i /><span>繁體中文</span></div>
     </div>
     <div className="hero-playground" aria-label="互動設計預覽">
       <span className="playground-label">靈感實驗室 <span>001 — ∞</span></span>
